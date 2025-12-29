@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+/* geist-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/geist-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* geist-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/geist-v4-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@theme {
+    --font-sans: 'Geist', sans-serif;
+
+
+}
+
+.headline {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#000, #443);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-animate {
+    transition: scale 500ms ease;
+    div.ring-1, div.ring-2, div.ring-3 {
+        opacity: 0;
+        transition: scale 500ms ease;
+        pointer-events: none;
+    }
+    div.ring-1 {
+
+        animation: ring1 15s linear infinite;
+    }
+    div.ring-2 {
+        transition-delay: 100ms;
+        animation: ring2 15s linear 400ms infinite;
+    }
+    div.ring-3 {
+        transition-delay: 200ms;
+        animation: ring3 15s linear 800ms infinite;
+    }
+    &:hover {
+        scale: 1.1;
+        div.ring-1, div.ring-2, div.ring-3 {
+            scale: 0;
+            animation: none;
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes ring1 {
+    0% {
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+    }
+}
+
+@keyframes ring2 {
+    0% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        width: 340px;
+        height: 340px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes ring3 {
+    0% {
+        width: 400px;
+        height: 400px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        width: 840px;
+        height: 840px;
+        opacity: 0;
+    }
+}
+
+.goo {
+    filter: url(#goo);
+}
