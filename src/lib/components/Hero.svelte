@@ -24,7 +24,7 @@
 <div class="max-w-screen-xl  relative mx-auto  ">
     <div class="lg:py-[200px] bg-neutral-100 px-5 lg:px-12 rounded-[4rem]">
         <div class="max-w-3xl text-black">
-            <h1 class="text-6xl mb-5 font-bold headline">I love building digital products, concepts and strategies</h1>
+            <h1 class="text-7xl mb-5 font-bold headline">I love building digital products, concepts and strategies</h1>
             <p class="text-neutral-600">
                 I provide interim team leadership and senior frontend/backend engineering to help teams ship reliable, user-focused web products.
                 I also mentor developers and act as a sparring partner for CTOs on architecture, strategy, and scaling.
@@ -35,7 +35,7 @@
         <ul class="flex justify-center gap-x-4 relative z-20">
             {#each links as link}
             <li>
-                <a class:scale-110={link.hover} on:mouseenter={link.hover = true} on:mouseleave={link.hover = false} class="transition-all w-12 h-12 block p-1 rounded-full bg-white hover:text-neutral-600 text-black duration-400" href="{link.href}" target="_blank" rel="noopener noreferrer">
+                <a class:scale-110={link.hover} on:mouseenter={() => link.hover = true} on:mouseleave={() => link.hover = false} class="transition-all w-12 h-12 block p-1 rounded-full bg-white hover:text-neutral-600 text-black duration-400" href="{link.href}" target="_blank" rel="noopener noreferrer">
                     <span class="sr-only">{link.label}</span>
                     {@html link.icon}
                 </a>
@@ -52,7 +52,7 @@
     </nav>
 </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg class="hidden" xmlns="http://www.w3.org/2000/svg" version="1.1">
     <defs>
         <filter id="goo">
             <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="blur" />
