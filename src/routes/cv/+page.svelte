@@ -1,10 +1,15 @@
 <script>
+    import Button from '$lib/components/Button.svelte';
 </script>
 
 <div class="max-w-screen-xl relative mx-auto text-sm py-[200px] print:py-0">
     <div class="max-w-3xl mx-auto grid grid-cols-4 gap-10">
+        <div class="col-span-4">
+            <h1 class="headline text-4xl font-bold mb-10 print:hidden">Curriculum Vitae</h1>
+            <span class="text-4xl font-bold mb-10 hidden print:block">Danny Stey - Curriculum Vitae</span>
+        </div>
         <div>
-            <img src="/images/danny.jpg" class="rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
+            <img src="/images/danny.png" class="rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
             <p>
                 Danny Stey<br/>
                 Freelance Engineer & Interim Team Lead, <br/>
@@ -237,6 +242,10 @@
                 </div>
             </div>
         </div>
-
+        <div class="col-span-4 mt-10 flex items-center justify-center print:hidden">
+            <div onclick="{() => window.print()}">
+                <Button icon="printer">Print</Button>
+            </div>
+        </div>
     </div>
 </div>
