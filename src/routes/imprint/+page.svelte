@@ -1,8 +1,9 @@
 <script>
+
 </script>
 
 <div class="max-w-screen-xl relative mx-auto text-sm py-[200px] print:py-0">
-    <div class="max-w-3xl mx-auto">
+    <div class="max-w-3xl px-5 mx-auto">
         <div>
             <h1 class="headline text-4xl font-bold mb-10">Legal Notice</h1>
             <div class="space-y-5">

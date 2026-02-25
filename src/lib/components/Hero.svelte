@@ -17,14 +17,20 @@
             label: 'LinkedIn',
             href: 'https://www.linkedin.com/in/danny-stey-59b357157/',
             hover: false
+        },
+        {
+            icon: '<svg xmlns="http://www.w3.org/2000/svg" class="p-1 w-9 mx-auto" viewBox="0 0 74 79"><path fill="currentColor" d="M73.701 17.432c-1.14-8.38-8.524-14.985-17.277-16.265C54.947.951 49.352.164 36.39.164h-.097C23.328.164 20.547.95 19.07 1.167 10.56 2.411 2.789 8.346.903 16.826-.004 21.002-.1 25.632.068 29.879c.24 6.09.287 12.17.846 18.237a84.928 84.928 0 0 0 2.018 11.96c1.792 7.268 9.047 13.316 16.156 15.784 7.61 2.573 15.794 3 23.636 1.234a35.201 35.201 0 0 0 2.56-.692c1.903-.599 4.136-1.269 5.778-2.446a.184.184 0 0 0 .075-.142v-5.877a.173.173 0 0 0-.138-.167.178.178 0 0 0-.077 0 66.19 66.19 0 0 1-15.338 1.773c-8.89 0-11.28-4.173-11.966-5.91-.55-1.502-.9-3.068-1.04-4.659a.17.17 0 0 1 .136-.175.173.173 0 0 1 .08.002 64.936 64.936 0 0 0 15.087 1.772c1.223 0 2.441 0 3.664-.032 5.111-.141 10.499-.4 15.528-1.372.125-.024.25-.046.358-.078 7.933-1.506 15.482-6.236 16.249-18.211.029-.472.1-4.939.1-5.428.004-1.662.542-11.794-.079-18.02ZM61.493 47.314H53.15V27.107c0-4.254-1.792-6.424-5.437-6.424-4.008 0-6.015 2.567-6.015 7.636V39.38h-8.291V28.32c0-5.07-2.011-7.637-6.019-7.637-3.624 0-5.434 2.17-5.437 6.424v20.207h-8.334v-20.82c0-4.255 1.098-7.634 3.294-10.14 2.265-2.499 5.237-3.782 8.925-3.782 4.27 0 7.496 1.623 9.646 4.867l2.076 3.446 2.079-3.446c2.15-3.244 5.377-4.867 9.639-4.867 3.684 0 6.656 1.283 8.928 3.783 2.197 2.502 3.295 5.882 3.295 10.139l-.008 20.82Z"/></svg>',
+            label: 'Mastodon',
+            href: 'https://mastodon.social/@deney',
+            hover: false
         }
     ]
 </script>
 
-<div class="max-w-screen-xl  relative mx-auto  ">
-    <div class="lg:py-[200px] bg-neutral-100 px-5 lg:px-12 rounded-[4rem]">
-        <div class="max-w-3xl text-black">
-            <h1 class="text-7xl mb-5 font-bold headline">I love building digital products, concepts and strategies</h1>
+<div class="max-w-screen-xl  relative mx-auto z-10  ">
+    <div class="lg:py-[200px] pt-40 pb-20 bg-neutral-100 px-5 lg:px-12 rounded-[4rem]">
+        <div class="max-w-3xl  text-black">
+            <h1 class="text-4xl  lg:text-7xl mb-5 font-bold headline">I love building digital products, concepts and strategies</h1>
             <p class="text-neutral-600">
                 I provide interim team leadership and senior frontend/backend engineering to help teams ship reliable, user-focused web products.
                 I also mentor developers and act as a sparring partner for CTOs on architecture, strategy, and scaling.
@@ -35,7 +41,7 @@
         <ul class="flex justify-center gap-x-4 relative z-20">
             {#each links as link}
             <li>
-                <a class:scale-110={link.hover} on:mouseenter={() => link.hover = true} on:mouseleave={() => link.hover = false} class="transition-all w-12 h-12 block p-1 rounded-full bg-white hover:text-neutral-600 text-black duration-400" href="{link.href}" target="_blank" rel="noopener noreferrer">
+                <a class:scale-110={link.hover} on:mouseenter={() => link.hover = true} on:mouseleave={() => link.hover = false} class="bg-white block transition-all w-12 h-12 block p-1 rounded-full  hover:text-neutral-600 text-black duration-400" href="{link.href}" target="_blank" rel="noopener noreferrer">
                     <span class="sr-only">{link.label}</span>
                     {@html link.icon}
                 </a>
@@ -45,7 +51,7 @@
         <div class="absolute w-[calc(100%+100px)] px-[50px] -ml-[50px] goo top-0 left-0 flex goo justify-center gap-x-4 z-10 pointer-events-none">
             <div class="h-10 bg-white absolute top-1/2 left-0 right-0"></div>
             {#each links as link}
-                <div class:scale-120="{link.hover}" class="transition-all duration-300 elastic w-12 h-12 bg-white rounded-full">
+                <div class:scale-120="{link.hover}" class="transition-all duration-200 elastic w-12 h-12 bg-white rounded-full">
                 </div>
             {/each}
         </div>

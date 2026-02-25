@@ -4,21 +4,27 @@
 
 <div class="print:hidden" >
     <div class="max-w-screen-xl mx-auto px-5 lg:px-8 relative">
-        <div class="absolute top-5 left-12 z-20 flex items-center gap-8">
+        <div class="absolute top-5 left-5 lg:left-12 z-20 flex items-center gap-4 lg:gap-8">
             <a href="/">
                 <svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 131" fill="currentColor"><path fill="currentColor" d="m85.11 27.453 17.16-2.76v17.86h20.64v14.31h-20.64v21.3a16.918 16.918 0 0 0 1.91 8.64c1.273 2.147 3.827 3.224 7.66 3.23a32.5 32.5 0 0 0 5.71-.52 30.298 30.298 0 0 0 5.36-1.44l2.41 13.37a47.246 47.246 0 0 1-6.91 2.191 40.465 40.465 0 0 1-9.33.919 30.815 30.815 0 0 1-11.64-1.9 18.348 18.348 0 0 1-7.38-5.3 19.711 19.711 0 0 1-3.86-8.25 48.516 48.516 0 0 1-1.09-10.71v-50.94ZM131.67 73.323a37.116 37.116 0 0 1 2.47-14.12 30.194 30.194 0 0 1 6.51-10.09 27.16 27.16 0 0 1 9.28-6.11 29.32 29.32 0 0 1 10.77-2.07c8.607 0 15.407 2.634 20.4 7.9 4.993 5.267 7.493 13.007 7.5 23.22 0 1 0 2.09-.12 3.28s-.15 2.25-.23 3.18h-39a11.44 11.44 0 0 0 5 8.41c2.92 2.067 6.84 3.104 11.76 3.11a49.386 49.386 0 0 0 9.28-.87 34.302 34.302 0 0 0 7.42-2.13l2.29 13.95a24.3 24.3 0 0 1-3.69 1.38 47.463 47.463 0 0 1-5.13 1.21c-1.89.34-3.9.64-6.05.86a58.333 58.333 0 0 1-6.46.35 38.234 38.234 0 0 1-14.23-2.42 27.648 27.648 0 0 1-10-6.63 26.294 26.294 0 0 1-5.88-10 39.709 39.709 0 0 1-1.89-12.41Zm40.33-6.57a18.108 18.108 0 0 0-.75-4.27 10.746 10.746 0 0 0-2-3.69 10.227 10.227 0 0 0-3.34-2.64 10.9 10.9 0 0 0-5-1 11.429 11.429 0 0 0-5 1 10.155 10.155 0 0 0-3.46 2.59 11.808 11.808 0 0 0-2.13 3.74 25.637 25.637 0 0 0-1.1 4.33l22.78-.06ZM254.4 42.554c-3.46 11.68-7.07 22.63-10.83 32.85a390.784 390.784 0 0 1-12.33 29.73 68.632 68.632 0 0 1-4.84 8.82 27.654 27.654 0 0 1-5.31 6 18.745 18.745 0 0 1-6.51 3.45 29.386 29.386 0 0 1-8.47 1.1 34.475 34.475 0 0 1-7.43-.75 33.733 33.733 0 0 1-5.59-1.67l3-13.71c1.539.55 3.121.971 4.73 1.26 1.445.237 2.906.354 4.37.35 3.08 0 5.443-.827 7.09-2.48a20.01 20.01 0 0 0 4.2-6.86c-3.913-7.68-7.83-16.304-11.75-25.87a323.225 323.225 0 0 1-11.06-32.21h18.2c.767 2.993 1.67 6.24 2.71 9.74s2.137 7.033 3.29 10.6a405.052 405.052 0 0 0 3.52 10.43 343.701 343.701 0 0 0 3.39 9.22c1-2.767 2.04-5.84 3.12-9.22 1.08-3.38 2.137-6.87 3.17-10.47 1.04-3.58 2.04-7.114 3-10.6.96-3.487 1.827-6.734 2.6-9.74l17.73.03ZM287.83 104.324a43.452 43.452 0 0 1-12.16-1.61 17.944 17.944 0 0 1-7.37-4.21 13.842 13.842 0 0 1-3.69-6.57 35.118 35.118 0 0 1-1-8.7v-66.73l17.17-2.77v66a22.64 22.64 0 0 0 .35 4.15 6.994 6.994 0 0 0 1.33 3.11 6.84 6.84 0 0 0 2.81 2.07c1.598.614 3.289.952 5 1l-2.44 14.26ZM318.83 25.023a9.406 9.406 0 0 1-3.06 7.44 10.92 10.92 0 0 1-14.4 0 10.572 10.572 0 0 1 0-14.86 10.921 10.921 0 0 1 14.4 0 9.386 9.386 0 0 1 3.06 7.42Zm-1.61 78.151H300v-60.62h17.18l.04 60.62ZM350.75 90.864c3.147 0 5.377-.31 6.69-.93a3.56 3.56 0 0 0 2-3.57c0-1.38-.847-2.59-2.54-3.63a48.214 48.214 0 0 0-7.72-3.51 76.751 76.751 0 0 1-7.31-3.12 21.056 21.056 0 0 1-5.59-3.86 15.36 15.36 0 0 1-3.58-5.36 19.879 19.879 0 0 1-1.27-7.49 16.177 16.177 0 0 1 6.3-13.53c4.22-3.334 10.023-5 17.41-5a55.99 55.99 0 0 1 10.59 1 50.51 50.51 0 0 1 8.07 2.13l-3 13.37a61.866 61.866 0 0 0-6.51-1.84 35.341 35.341 0 0 0-7.9-.81c-5.38 0-8.07 1.5-8.07 4.5-.01.63.109 1.256.35 1.84a3.887 3.887 0 0 0 1.39 1.56 18.826 18.826 0 0 0 2.81 1.61c1.19.58 2.72 1.21 4.56 1.91a69 69 0 0 1 9.33 4.08c2.17 1.13 4.14 2.61 5.83 4.38a13.88 13.88 0 0 1 3 5.24c.611 2.176.9 4.43.86 6.69 0 6-2.247 10.533-6.74 13.6-4.493 3.066-10.85 4.603-19.07 4.61a54.87 54.87 0 0 1-13.42-1.38 56.374 56.374 0 0 1-7.44-2.3l2.88-13.95a57.445 57.445 0 0 0 9 2.71 43.9 43.9 0 0 0 9.09 1.05ZM389.24 103.174v-86.67l17.18-2.77v29.05a35.198 35.198 0 0 1 4.43-1.1 27.535 27.535 0 0 1 5.25-.52 32.45 32.45 0 0 1 12.27 2 19 19 0 0 1 7.84 5.71 22.065 22.065 0 0 1 4.15 8.75 48.64 48.64 0 0 1 1.2 11.3v34.23H424.4v-32.14c0-5.53-.72-9.44-2.13-11.75-1.41-2.31-4.06-3.46-7.91-3.46a22.636 22.636 0 0 0-4.31.4 51.73 51.73 0 0 0-3.63.87v46.1h-17.18ZM.06 46.853 74 77.93V61.16L19.703 38.913 74 17.098V0L1 30.5l-1 .429.06 15.924ZM73.94 99.897 0 130.974v-16.77l54.297-22.247L0 70.143V53.044l73 30.5 1 .43-.06 15.923Z"/></svg>
             </a>
             <a href="/cv">
                 <Button icon="clipboard">CV</Button>
             </a>
+            <a href="/books" class="hidden lg:block text-neutral-500 hover:text-neutral-600">
+                Books
+            </a>
+            <a href="/projects" class="hidden lg:block text-neutral-500 hover:text-neutral-600">
+                Project City
+            </a>
         </div>
         <div class="button-animate text-transparent w-10 h-10 rounded-full absolute z-20 top-5 right-5">
-            <a href="mailto:danny@steylish.de" class="bg-neutral-800 z-10 w-full h-full rounded-full absolute top-0 left-0 cursor-pointer hover:bg-neutral-700 text-neutral-100 flex items-center justify-center">
+            <a href="mailto:hi@steylish.de" class="bg-neutral-800 z-10 w-full h-full rounded-full absolute top-0 left-0 cursor-pointer hover:bg-neutral-700 text-neutral-100 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mt-0.5 mr-0.5 "><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
             </a>
-            <div class="ring-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 border rounded-full border-neutral-400 pointer-event-none"></div>
-            <div class="ring-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 border rounded-full border-neutral-400 pointer-event-none"></div>
-            <div class="ring-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-100 h-100 border rounded-full border-neutral-400 pointer-event-none"></div>
+            <div class="hidden lg:block ring-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 border rounded-full border-neutral-400 pointer-event-none"></div>
+            <div class="hidden lg:block ring-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 border rounded-full border-neutral-400 pointer-event-none"></div>
+            <div class="hidden lg:block ring-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-100 h-100 border rounded-full border-neutral-400 pointer-event-none"></div>
         </div>
     </div>
 </div>

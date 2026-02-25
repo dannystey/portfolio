@@ -1,8 +1,18 @@
 <script>
 </script>
-<div class="max-w-screen-xl relative mx-auto py-20">
-    <h3 class="text-center mb-4"></h3>
+<div class="max-w-screen-xl relative mx-auto py-40">
+    <h3 class="text-center mb-4 text-gray-500 text-sm">trusted by</h3>
 <div class="flex justify-center items-center gap-10 text-neutral-800">
+    <div>
+        <svg class="w-8 max-h-8" viewBox="0 0 323 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M155.447 310.409C75.5443 307.504 11.6222 241.645 11.6222 161.258C11.6222 80.8711 75.5443 15.012 155.447 12.1065V0C69.2489 2.90555 0 74.0915 0 161.258C0 248.424 69.2489 319.61 155.447 322.516V310.409Z" fill="black"/>
+            <path d="M167.553 0V12.1065C247.456 15.012 311.378 80.8711 311.378 161.258C311.378 241.645 247.456 307.504 167.553 310.409V322.516C253.751 319.61 323 248.424 323 161.258C323 74.0915 253.751 2.90555 167.553 0Z" fill="black"/>
+            <path d="M221.37 213.422L215.576 202.827H88.5782L166.805 67.4926H154.733L70.2288 213.422H221.37Z" fill="black"/>
+            <path d="M244.823 227.755L169.101 96.1573L163.314 106.841L226.496 217.072H70.2288L76.0164 227.755H244.823Z" fill="black"/>
+            <path d="M247.65 226.452L253.944 215.78L169.213 68.7955L93.6818 200.742H105.786L169.213 90.6248L247.65 226.452Z" fill="black"/>
+        </svg>
+
+    </div>
     <div>
         <svg class="w-25" viewBox="0 0 151 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
