@@ -47,5 +47,5 @@ jobs:
           ${{ secrets.USR }}@${{ secrets.HOST }}:/var/www/steylish/
       - name: Restart web server
         run: |
-          ssh ${{ secrets.USR }}@${{ secrets.HOST }} "bash ~/start-ui.sh"
+          ssh ${{ secrets.USR }}@${{ secrets.HOST }} "bash /var/www/steylish/start.sh"
 
