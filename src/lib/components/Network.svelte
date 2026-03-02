@@ -54,5 +54,21 @@
                 </a>
             </div>
         </div>
+
+        <!-- div class="aspect-[3/4] bg-neutral-100 rounded-2xl p-4 flex flex-col">
+            <div class="w-full aspect-[4/3] overflow-hidden mb-4">
+                <img class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/bernhard.png" />
+            </div>
+            <div class="flex-1 items-start flex flex-col">
+                <span class="text-2xl font-bold mb-4">Bernhard</span>
+                <p>
+                    Software Developer mainly for C#
+                </p>
+                <div class="flex-1"></div>
+                <a href="https://qsp.app" target="_blank" rel="noopener">
+                    <Button icon="external">To qsp.app</Button>
+                </a>
+            </div>
+        </div -->
     </div>
 </div>

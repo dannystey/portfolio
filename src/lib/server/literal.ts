@@ -20,8 +20,22 @@ export interface Book {
 }
 
 export interface ReadingState {
+	id: string;
 	status: 'WANT_TO_READ' | 'READING' | 'FINISHED' | 'DROPPED';
+	bookId: string;
+	profileId: string;
+	createdAt: string;
 	book: Book;
+}
+
+export interface ReadDate {
+	id: string;
+	started: string | null;
+	finished: string | null;
+	followingStatus: string;
+	updatedAt: string;
+	createdAt: string;
+	__typename: string;
 }
 
 export class LiteralService {
@@ -65,6 +79,7 @@ export class LiteralService {
 			throw new Error(`Literal Login Error: ${result.errors.map((e: any) => e.message).join(', ')}`);
 		}
 
+		console.log('Login result:', result);
 		this.token = result.data.login.token;
 		return this.token;
 	}
@@ -112,7 +127,7 @@ export class LiteralService {
 		status?: 'WANT_TO_READ' | 'READING' | 'FINISHED' | 'DROPPED',
 		limit = 20,
 		offset = 0
-	): Promise<ReadingState[]> {
+	): Promise<{ myReadingStates: ReadingState[] }> {
 		const query = `
       	query myReadingStates {
 			  myReadingStates {
@@ -165,7 +180,32 @@ export class LiteralService {
     `;
 
 		const data = await this.query(query);
+
 		return data;
+	}
+
+	async getReadDates(bookId: string): Promise<ReadDate[]> {
+		const query = `
+      query getReadDates($bookId: String!, $profileId: String!) {
+        getReadDates(bookId: $bookId, profileId: $profileId) {
+          ...ReadDateParts
+          __typename
+        }
+      }
+
+      fragment ReadDateParts on ReadDate {
+        id
+        started
+        finished
+        followingStatus
+        updatedAt
+        createdAt
+        __typename
+      }
+    `;
+
+		const data = await this.query(query, { bookId, profileId: 'cm92n30m63942240hyg5zau5slx' });
+		return data.getReadDates;
 	}
 }
 

@@ -49,6 +49,7 @@
 
         const applyTextureToBook = (book: any, texture: THREE.Texture) => {
             if (book.model) {
+                texture.colorSpace = THREE.SRGBColorSpace;
                 book.model.traverse((child: THREE.Object3D) => {
                     if (child instanceof THREE.Mesh && child.name === 'Cover') {
                         child.material = child.material.clone();

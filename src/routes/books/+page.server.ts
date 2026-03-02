@@ -12,19 +12,25 @@ export const load: PageServerLoad = async () => {
         }
 
         const myBookData = await literalService.getMyBooks();
+        const filteredBookData = myBookData.myReadingStates
+            .filter(rs => rs.status === 'FINISHED' || rs.status === 'IS_READING')
+            .map(rs => ({
+                readingState: {
+                    status: rs.status,
+                    createdAt: rs.createdAt
+                },
+                ...rs.book
+            }))
+            .sort((a, b) => new Date(b.readingState.createdAt).getTime() - new Date(a.readingState.createdAt).getTime())
+
+        for(const book of filteredBookData){
+            const readingDates = await literalService.getReadDates(book.id);
+            book.readingDates = readingDates;
+        }
+
         // download book covers
         const books = await Promise.all(
-            myBookData.myReadingStates
-                .filter(rs => rs.status === 'FINISHED' || rs.status === 'IS_READING')
-                .map(rs => ({
-                    readingState: {
-                        status: rs.status,
-                        createdAt: rs.createdAt
-                    },
-                    ...rs.book
-                }))
-                .sort((a, b) => new Date(b.readingState.createdAt).getTime() - new Date(a.readingState.createdAt).getTime())
-                .map(async book => {
+            filteredBookData.map(async book => {
                     const coverPath = `./static/covers/cover-${book.id}.png`;
                     if (book.cover && !fs.existsSync(coverPath)) {
                         try {

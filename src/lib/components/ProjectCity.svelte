@@ -12,6 +12,8 @@
     onMount(async () => {
         if (!container) return;
 
+        console.log(projects);
+
         // Scene setup
         const scene = new THREE.Scene();
         

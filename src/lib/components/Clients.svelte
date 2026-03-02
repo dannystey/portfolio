@@ -2,7 +2,7 @@
 </script>
 <div class="max-w-screen-xl relative mx-auto py-40">
     <h3 class="text-center mb-4 text-gray-500 text-sm">trusted by</h3>
-<div class="flex justify-center items-center gap-10 text-neutral-800">
+<div class="flex justify-center flex-wrap items-center gap-10 text-neutral-800">
     <div>
         <svg class="w-8 max-h-8" viewBox="0 0 323 323" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M155.447 310.409C75.5443 307.504 11.6222 241.645 11.6222 161.258C11.6222 80.8711 75.5443 15.012 155.447 12.1065V0C69.2489 2.90555 0 74.0915 0 161.258C0 248.424 69.2489 319.61 155.447 322.516V310.409Z" fill="black"/>

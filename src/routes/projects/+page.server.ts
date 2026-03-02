@@ -19,8 +19,8 @@ export const load: PageServerLoad = async () => {
 
         // Clients zu Projekten mappen
         const projectsWithClients = projects.map(project => ({
-            ...project,
-            client: clients.find(c => c.id === project.client_id)
+            actual_hours: Math.min(200, project.actual_hours),
+            client: clients.find(c => c.id === project.client_id)?.name
         }));
 
         const result = {
