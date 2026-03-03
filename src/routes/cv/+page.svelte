@@ -8,8 +8,8 @@
             <h1 class="headline text-4xl font-bold mb-10 print:hidden">Curriculum Vitae</h1>
             <span class="text-4xl font-bold mb-10 hidden print:block">Danny Stey - Curriculum Vitae</span>
         </div>
-        <div>
-            <img src="/images/danny-stey.png" class="rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
+        <div class="col-span-4 md:col-span-1 space-y-4">
+            <img src="/images/danny-stey.png" alt="Danny Stey" class="rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
             <p>
                 Danny Stey<br/>
                 Freelance Engineer & Interim Team Lead, <br/>
@@ -243,9 +243,9 @@
             </div>
         </div>
         <div class="col-span-4 mt-10 flex items-center justify-center print:hidden">
-            <div onclick="{() => window.print()}">
+            <button type="button" aria-label="Print" onclick="{() => window.print()}">
                 <Button icon="printer">Print</Button>
-            </div>
+            </button>
         </div>
     </div>
 </div>

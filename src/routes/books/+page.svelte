@@ -31,7 +31,7 @@
 
 <div class="max-w-screen-xl relative mx-auto mb-20">
     <div class="h-[60vh] min-h-[700px] bg-neutral-100 rounded-[4rem] lg:mb-12 relative">
-        <Books books="{data.books}"></Books>
+        <Books books={data.books}></Books>
         <div class="absolute left-1/2 -translate-x-1/2 whitespace-nowrap lg:translate-x-0 bottom-8 lg:left-12 bg-neutral-600 text-white px-3 py-1 rounded-full text-sm ">
             <span>Books I am currently reading</span>
         </div>

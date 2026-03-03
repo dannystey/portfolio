@@ -26,8 +26,7 @@ export const loadModels = () => {
             metalness: 0,
             roughness: 0.1,
             emissive: 0xffffaa,
-            emissiveIntensity: 2,
-            flatShading: true
+            emissiveIntensity: 2
         });
         const darkWindowMaterial = new THREE.MeshStandardMaterial({ color: 0x000000, flatShading: true, metalness: 1, roughness: 0.5 });
 

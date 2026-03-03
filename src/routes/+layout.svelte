@@ -6,8 +6,6 @@
     import {fade, scale, fly} from 'svelte/transition';
 
     let { children, data } = $props();
-
-    console.log('Layout data:', data);
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
