@@ -1,14 +1,16 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/icons/favicon.svg';
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
     import {fade, scale, fly} from 'svelte/transition';
-
     let { children, data } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+    <link rel="icon" type="image/svg+xml" href="{favicon}" />
+    <title>Software Development by Steylish</title>
+</svelte:head>
 <main class="bg-white text-neutral-800 min-h-screen m-2 overflow-x-hidden">
     <Header></Header>
     {#key data.pathname}
