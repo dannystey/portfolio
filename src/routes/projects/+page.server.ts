@@ -4,8 +4,8 @@ import fs from 'node:fs';
 
 export const load: PageServerLoad = async () => {
     try {
-        if (fs.existsSync('./static/projects.json')) {
-            const cachedProjects = JSON.parse(fs.readFileSync('./static/projects.json', 'utf8'));
+        if (fs.existsSync('./projects.json')) {
+            const cachedProjects = JSON.parse(fs.readFileSync('./projects.json', 'utf8'));
             if (cachedProjects.cached + 1000 * 60 * 60 * 24 * 7 > Date.now()) {
                 return cachedProjects;
             }
