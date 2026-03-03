@@ -3,13 +3,13 @@
 </script>
 
 <div class="max-w-screen-xl relative mx-auto text-sm py-[200px] print:py-0" >
-    <div class="max-w-3xl mx-auto grid grid-cols-4 gap-10">
+    <div class="max-w-3xl px-5 mx-auto grid grid-cols-4 gap-10">
         <div class="col-span-4">
             <h1 class="headline text-4xl font-bold mb-10 print:hidden">Curriculum Vitae</h1>
             <span class="text-4xl font-bold mb-10 hidden print:block">Danny Stey - Curriculum Vitae</span>
         </div>
         <div class="col-span-4 md:col-span-1 space-y-4">
-            <img src="/images/danny-stey.png" alt="Danny Stey" class="rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
+            <img src="/images/danny-stey.png" alt="Danny Stey" class="max-w-[200px] mx-auto rounded-full w-full aspect-square bg-neutral-200 mx-auto mb-10"/>
             <p>
                 Danny Stey<br/>
                 Freelance Engineer & Interim Team Lead, <br/>
@@ -17,7 +17,7 @@
                 German, English
             </p>
         </div>
-        <div class="col-span-3 space-y-10">
+        <div class="col-span-4 md:col-span-3 space-y-10">
             <div class="space-y-4">
                 <h2>About</h2>
                 <p>I began my career as an intern at the online marketing agency "coma" back in2009 and quickly advanced
