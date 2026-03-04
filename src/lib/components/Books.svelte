@@ -2,11 +2,12 @@
     import * as THREE from 'three';
     import { onMount } from 'svelte';
     import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+    import { loadModels } from './books/loadModels';
 
     let container: HTMLDivElement;
     let { books } = $props();
 
-    onMount(() => {
+    onMount(async () => {
         if (!container) return;
 
         // Scene setup
@@ -19,12 +20,14 @@
             1000
         );
         // Position camera: centered, slightly from above
-        camera.position.set(0, 1, 10);
-        camera.lookAt(0, 0, 0);
+        camera.position.set(0, 8, 10);
+        camera.lookAt(0, 8, 0);
 
         const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         renderer.setSize(container.clientWidth, container.clientHeight);
         renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
         container.appendChild(renderer.domElement);
 
         // Lights
@@ -32,92 +35,53 @@
         scene.add(ambientLight);
 
         const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-        directionalLight.position.set(5, 10, 20);
+        directionalLight.position.set(18, 10, 20);
+        directionalLight.castShadow = true;
+        directionalLight.shadow.mapSize.width = 1024;
+        directionalLight.shadow.mapSize.height = 1024;
+        directionalLight.shadow.camera.near = 0.5;
+        directionalLight.shadow.camera.far = 50;
+        directionalLight.shadow.bias = -0.0005;
+        directionalLight.shadow.normalBias = 0.02;
+        const d = 17; // Adjusted frustum size
+        directionalLight.shadow.camera.left = -d;
+        directionalLight.shadow.camera.right = d;
+        directionalLight.shadow.camera.top = d;
+        directionalLight.shadow.camera.bottom = -d;
         scene.add(directionalLight);
 
         const fillLight = new THREE.DirectionalLight(0xffffff, 0.5);
         fillLight.position.set(5, 10, 10);
         scene.add(fillLight);
-        let model = null;
 
-        const bookModels: THREE.Group[] = [];
+        // Ground Plane
+        const groundGeometry = new THREE.PlaneGeometry(100, 100);
+        const groundMaterial = new THREE.MeshStandardMaterial({ 
+            color: 0xffffff,
+        });
+        const ground = new THREE.Mesh(groundGeometry, groundMaterial);
+        ground.rotation.x = -Math.PI / 2;
+        ground.position.y = 0;
+        ground.receiveShadow = true;
+        scene.add(ground);
 
         // Load Model
-        const loader = new GLTFLoader();
+
         const textureLoader = new THREE.TextureLoader();
         textureLoader.setCrossOrigin('anonymous');
-
-        const applyTextureToBook = (book: any, texture: THREE.Texture) => {
-            if (book.model) {
-                texture.colorSpace = THREE.SRGBColorSpace;
-                book.model.traverse((child: THREE.Object3D) => {
-                    if (child instanceof THREE.Mesh && child.name === 'Cover') {
-                        child.material = child.material.clone();
-                        child.material.map = texture;
-                        child.material.color.set(0xffffff);
-                        child.material.needsUpdate = true;
-                    }
-
-                    if (child instanceof THREE.Mesh && child.name === 'Surrounding') {
-                        child.material = new THREE.MeshMatcapMaterial();
-                        child.material.color.set(book.gradientColors[0]);
-                        child.material.needsUpdate = true;
-                    }
-                });
-            }
-        };
 
         books.forEach(book => {
             if (book.cover) {
                 book.texture = textureLoader.load(book.cover, (texture) => {
                     texture.flipY = false;
-                    applyTextureToBook(book, texture);
                 });
             }
         });
 
-        books = books.filter(b => b.cover && b.readingState.status == 'IS_READING');
+        const readingBooks = books.filter(b => b.cover && b.readingState.status == 'IS_READING');
+        const bookModels = await loadModels(scene, readingBooks, books);
 
-        loader.load(
-            '/models/book_v2.glb',
-            (gltf) => {
-                model = gltf.scene;
-                
-                // Center base model geometry
-                const box = new THREE.Box3().setFromObject(model);
-                const center = box.getCenter(new THREE.Vector3());
-                model.traverse((child) => {
-                    if (child instanceof THREE.Mesh) {
-                        child.position.sub(center);
-                    }
-                });
-
-                books.forEach((book, index) => {
-                    const bookModel = model.clone();
-                    book.model = bookModel;
-                    
-                    // Arrange books in a row
-                    const spacing = 4.3;
-                    const totalWidth = (books.length - 1) * spacing;
-                    bookModel.position.x = (index * spacing) - (totalWidth / 2);
-
-                    bookModel.position.y = 0;
-                    bookModel.position.z = Math.sin(index * 0.5) * 2; // Add some depth variation
-                    bookModel.rotation.y = Math.PI + (Math.random() - 0.5) * 0.8; // Slight random rotation
-
-                    if (book.texture) {
-                        applyTextureToBook(book, book.texture);
-                    }
-                    
-                    scene.add(bookModel);
-                    bookModels.push(bookModel);
-                });
-            },
-            undefined,
-            (error) => {
-                console.error('An error happened while loading the model:', error);
-            }
-        );
+        scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
 
         // Animation loop
         let animationId: number;
@@ -128,7 +92,7 @@
                 const time = Date.now() * 0.001;
                 // Subtle floating and rotating
                 m.rotation.y = Math.PI + Math.sin(time * 0.5 + i) * 0.1;
-                m.position.y = Math.sin(time + i * 0.5) * 0.2;
+                m.position.y = Math.sin(time + i * 0.5) * 0.2 + 8;
             });
             
             renderer.render(scene, camera);

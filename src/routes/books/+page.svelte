@@ -30,7 +30,7 @@
 </script>
 
 <div class="max-w-screen-xl relative mx-auto mb-20">
-    <div class="h-[60vh] min-h-[700px] bg-neutral-100 rounded-[4rem] lg:mb-12 relative">
+    <div class="h-[60vh] min-h-[700px] bg-neutral-100 rounded-[4rem] overflow-hidden lg:mb-12 relative">
         <Books books={data.books}></Books>
         <div class="absolute left-1/2 -translate-x-1/2 whitespace-nowrap lg:translate-x-0 bottom-8 lg:left-12 bg-neutral-600 text-white px-3 py-1 rounded-full text-sm ">
             <span>Books I am currently reading</span>
@@ -66,6 +66,7 @@
                         {/if}
                         <div class="flex flex-col justify-center">
                             <h3 class="font-bold text-lg leading-tight">{book.title}</h3>
+
                             <p class="text-neutral-600 text-sm mt-1">
                                 {book.authors.map(a => a.name).join(', ')}
                             </p>
@@ -76,17 +77,19 @@
                                 {/if} ->
                                 {#if book.readingDates.length && book.readingDates[0].finished}
                                     {DateTime.fromISO(book.readingDates[0].finished).toFormat('dd.MM.yyyy')}
-                                    {:else}
+                                {:else}
                                     not finished yet
-                                {/if}</p>
+                                {/if}
+                            </p>
                                     {/if}
+                            <div class="  mt-1 bg-neutral-800 rounded-full inline-block px-2 py-1 w-12 text-center text-xs text-white">{book.pageCount}</div>
                         </div>
                     </div>
                     {/if}
                 {/each}
                 {#if booksByYear[year].length > 6}
                 <div class="hidden md:block col-span-full ">
-                    <Button onclick={() => showMore[yearIndex] = true}>Show more</Button>
+                    <Button onclick={() => showMore[yearIndex] = !showMore[yearIndex]}>{!showMore[yearIndex] ? 'Show more' : 'Show less'}</Button>
                 </div>
                 {/if}
 

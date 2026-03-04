@@ -4,7 +4,7 @@ import fs from 'node:fs';
 
 export const load: PageServerLoad = async () => {
     try {
-        if (fs.existsSync('./static/books.json')) {
+        if (fs.existsSync('./static/books.json') && false) {
             const cachedBooks = JSON.parse(fs.readFileSync('./static/books.json', 'utf8'));
             if (cachedBooks.cached + 1000 * 60 * 60 * 24 * 7 > Date.now()) {
                 return cachedBooks;
@@ -21,12 +21,18 @@ export const load: PageServerLoad = async () => {
                 },
                 ...rs.book
             }))
-            .sort((a, b) => new Date(b.readingState.createdAt).getTime() - new Date(a.readingState.createdAt).getTime())
 
         for(const book of filteredBookData){
             const readingDates = await literalService.getReadDates(book.id);
             book.readingDates = readingDates;
         }
+
+        filteredBookData.sort((a, b) => {
+            const dateA = a.readingDates?.[0]?.started ? new Date(a.readingDates[0].started).getTime() : 0;
+            const dateB = b.readingDates?.[0]?.started ? new Date(b.readingDates[0].started).getTime() : 0;
+            
+            return dateB - dateA;
+        })
 
         // download book covers
         const books = await Promise.all(
