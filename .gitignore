@@ -7,7 +7,6 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
-/static/covers
 
 /static/books.json
 /static/projects.son
