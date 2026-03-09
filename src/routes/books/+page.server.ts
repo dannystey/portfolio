@@ -9,7 +9,7 @@ export const load: PageServerLoad = async () => {
         let cacheData: any = null;
         if (fs.existsSync('./static/books.json')) {
             cacheData = JSON.parse(fs.readFileSync('./static/books.json', 'utf8'));
-            if (cacheData.cached + 1000 * 60 * 60 * 24 * 2 > Date.now()) {
+            if (cacheData.cached + 1000 * 60 * 60 * 24 * 2 > Date.now() && false) {
                 return cacheData;
             }
         }
@@ -21,6 +21,7 @@ export const load: PageServerLoad = async () => {
              filteredBookData = literalData.books || [];
         }
 
+        console.log(env);
         if (env.HARDCOVER_API_KEY) {
             const hcBooks = await hardcoverService.getCurrentlyReading();
             const hcMappedBooks = hcBooks.map(hc => ({
@@ -43,9 +44,6 @@ export const load: PageServerLoad = async () => {
 
             filteredBookData = [...filteredBookData, ...hcMappedBooks];
         }
-
-
-        console.log(filteredBookData);
         filteredBookData.sort((a, b) => {
             const dateA = a.readingDates?.[0]?.started ? new Date(a.readingDates[0].started).getTime() : 0;
             const dateB = b.readingDates?.[0]?.started ? new Date(b.readingDates[0].started).getTime() : 0;
