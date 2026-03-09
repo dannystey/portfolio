@@ -1,0 +1,1744 @@
+{
+  "books": [
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-12-04T21:20:27.093Z"
+      },
+      "id": "ckr1sc57c0ox801cr01fs9hg9",
+      "slug": "goldingherr-der-fliegen-uah82",
+      "title": "Herr der Fliegen",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3596214629",
+      "isbn13": "9783596214624",
+      "language": "de",
+      "pageCount": 281,
+      "publishedDate": null,
+      "publisher": "Fischer Taschenbuch Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckr1sc57c0ox801cr01fs9hg9.png",
+      "authors": [
+        {
+          "id": "ckquqruqk0tqz01eu4nbedix4",
+          "name": "Golding",
+          "slug": "golding-jdmqp",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "ckquqrth60tqm01eun16glbe6",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmijyuzwl12440850hum8w8ft0d6",
+          "started": "2025-11-29",
+          "finished": "2025-12-04",
+          "followingStatus": null,
+          "updatedAt": "2025-12-04T21:20:27.753+00:00",
+          "createdAt": "2025-11-29T07:25:02.661+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-11-19T07:51:38.240Z"
+      },
+      "id": "ckr1uj2ug1cde01cr4rtirgrv",
+      "slug": "randy-pauschthe-last-lecture-pmc4k",
+      "title": "The Last Lecture",
+      "subtitle": null,
+      "description": "Reflections of a Carnegie Mellon computer science professor who lectured on \"Really achieving your childhood dreams,\" shortly after having been diagnosed with terminal cancer.  His advice concerned seizing the moment while living, rather than dying.",
+      "isbn10": "1401323251",
+      "isbn13": "9781401323257",
+      "language": "en",
+      "pageCount": 206,
+      "publishedDate": "2008-07-13T00:00:00.000Z",
+      "publisher": "Hyperion Books",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckr1uj2ug1cde01cr4rtirgrv.png",
+      "authors": [
+        {
+          "id": "ckqusoz9n1mjg01eutc3qk5fq",
+          "name": "Randy Pausch",
+          "slug": "randy-pausch-biwl1",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "ckqusoz761mjf01euzsghs9kb",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmhosc6j42149590huugkfpg7yx",
+          "started": "2025-11-07",
+          "finished": "2025-11-19",
+          "followingStatus": null,
+          "updatedAt": "2025-11-19T07:52:03.168+00:00",
+          "createdAt": "2025-11-07T11:41:35.632+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-11-05T21:52:14.788Z"
+      },
+      "id": "ckend3y0a1154jm0yrbsctbg7",
+      "slug": "john-p-strelecky-das-cafe-am-rande-der-welt-noofm",
+      "title": "Das Café am Rande der Welt",
+      "subtitle": "eine Erzählung über den Sinn des Lebens",
+      "description": "Through a fictional account the author tells the story of John, who sets out on a vacation to escape from his unfulfilling life. A simple yet profound story that asks questions about the purpose of life and our role as individuals.",
+      "isbn10": "3423209690",
+      "isbn13": "9783423209694",
+      "language": "de",
+      "pageCount": 126,
+      "publishedDate": "2007-01-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckend3y0a1154jm0yrbsctbg7.png",
+      "authors": [
+        {
+          "id": "ckend3y0a1155jm0yqz9df59g",
+          "name": "John P. Strelecky",
+          "slug": "john-p-strelecky-jxyfd",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "ckwq7cagy15571eb2vqplugdq",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmhjo3yy2450720hs8mc54ks6n",
+          "started": "2025-11-03",
+          "finished": "2025-11-05",
+          "followingStatus": null,
+          "updatedAt": "2025-11-05T21:52:51.009+00:00",
+          "createdAt": "2025-11-03T21:44:23.210+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-01-19T18:07:42.074Z"
+      },
+      "id": "ckr1ry3vw0l4l01cr89s0elsb",
+      "slug": "cornelia-funketintenherz-pc7el",
+      "title": "Tintenherz",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3791504657",
+      "isbn13": "9783791504650",
+      "language": "de",
+      "pageCount": 573,
+      "publishedDate": "2003-07-13T00:00:00.000Z",
+      "publisher": "Dressler",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckr1ry3vw0l4l01cr89s0elsb.png",
+      "authors": [
+        {
+          "id": "ckhdk5sqd218430zapefukbcro",
+          "name": "Cornelia Funke",
+          "slug": "cornelia-funke-56edc",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "ckquqfrhp0p1k01eux3qzzkrc",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmh6mcx3b3461620gqsq6u39xri",
+          "started": "2025-10-25",
+          "finished": "2026-01-19",
+          "followingStatus": null,
+          "updatedAt": "2026-01-19T18:08:02.501+00:00",
+          "createdAt": "2025-10-25T18:34:21.191+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-10-25T18:33:15.354Z"
+      },
+      "id": "cku9o2boi35420814uwzfhdaxko",
+      "slug": "douglas-adams-einmal-rupert-und-zuruck-xcmww",
+      "title": "Einmal Rupert und zurück",
+      "subtitle": "der fünfte Band der vierbändigen Trilogie \"Per Anhalter durch die Galaxis\"",
+      "description": null,
+      "isbn10": "3807702857",
+      "isbn13": "9783807702858",
+      "language": "de",
+      "pageCount": 284,
+      "publishedDate": "2000-01-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku9o2boi35420814uwzfhdaxko.png",
+      "authors": [
+        {
+          "id": "ckemu4zxv0352np0yy27d5x7l",
+          "name": "Douglas Adams",
+          "slug": "douglas-adams-qpbux",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "ckzppa0a26708620tbvsurss1z3",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmf8kkp0f8616790hzo8tez4hu7",
+          "started": "2025-09-06",
+          "finished": "2025-10-25",
+          "followingStatus": null,
+          "updatedAt": "2025-10-25T18:33:15.989+00:00",
+          "createdAt": "2025-09-06T18:00:32.414+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-09-04T10:15:49.701Z"
+      },
+      "id": "cku9o2bm535412814uwxld8bokn",
+      "slug": "douglas-adams-machts-gut-und-danke-fur-den-fisch-w9xzv",
+      "title": "Macht`s gut und danke für den Fisch",
+      "subtitle": "Band 4 der fünfbändigen »Intergalaktischen Trilogie«",
+      "description": "Arthur Dent hat genug vom All und kehrt, nachdem sein explodierter Heimatplanet auf wundersame Weise wieder existiert, in sein altes Leben zurück. Die Menschen gehen dort wie immer ihren Gewohnheiten nach, und auch sein Haus steht noch. Nur Fenchurch, das Mädchen mit der zündenden Idee, kann sich erinnern, dass die Vogonen die Erde zerstört haben. Und sie weiß auch, worin der Sinn des Lebens besteht. Zumindest wusste sie es - jetzt hat sie es leider wieder vergessen. Der vierte Band der intergalaktischen Kult-Serie »Per Anhalter durch die Galaxis«.",
+      "isbn10": "3036993606",
+      "isbn13": "9783036993607",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2017-04-26T00:00:00.000Z",
+      "publisher": "Kein & Aber AG",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku9o2bm535412814uwxld8bokn.png",
+      "authors": [
+        {
+          "id": "ckemu4zxv0352np0yy27d5x7l",
+          "name": "Douglas Adams",
+          "slug": "douglas-adams-qpbux",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#93D4FF",
+        "#E2F1B7",
+        "#E8F09D"
+      ],
+      "workId": "ckqurr2we183501eukecberjr",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmdq9o2tb14264010hzb4afs8mu3",
+          "started": "2025-07-30",
+          "finished": "2025-09-04",
+          "followingStatus": null,
+          "updatedAt": "2025-09-04T10:15:52.622+00:00",
+          "createdAt": "2025-07-30T17:55:40.991+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-07-30T17:54:06.114Z"
+      },
+      "id": "cm92y5fr75673720hygi02jmmpy",
+      "slug": "christian-linker-back-to-mars-5odrw",
+      "title": "Back to Mars",
+      "subtitle": "Kampf um die Freiheit",
+      "description": "Wer eine Zukunft in Freiheit will, muss dafür kämpfen: Im Jahr 2100 führt der dreizehnjährige Will ein glückliches Leben auf der Erde. Als seine Freunde plötzlich von dem Mars-Geheimdienst ARES verschleppt werden, versucht er alles, um sie zurückzuholen. Kann Will seine Freunde retten?",
+      "isbn10": null,
+      "isbn13": "9783423765688",
+      "language": "de",
+      "pageCount": 314,
+      "publishedDate": "2025-03-13T00:00:00.000Z",
+      "publisher": "dtv",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm92y5fr75673720hygi02jmmpy.png",
+      "authors": [
+        {
+          "id": "cks99ycla39279914um4wvedhvz",
+          "name": "Christian Linker",
+          "slug": "christian-linker-k8d8e",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "cm92y5fr75673730hygn56jqatf",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmcnmv08b7924570hwn2xu19tl5",
+          "started": "2025-07-03",
+          "finished": "2025-07-30",
+          "followingStatus": null,
+          "updatedAt": "2025-07-30T17:54:07.260+00:00",
+          "createdAt": "2025-07-03T17:01:58.379+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-07-03T17:01:00.404Z"
+      },
+      "id": "cksyb6oaz1476933b8ggf1t8lvb",
+      "slug": "die-unendliche-geschichte-fzih0",
+      "title": "Die unendliche Geschichte",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3522202600",
+      "isbn13": "9783522202602",
+      "language": "de",
+      "pageCount": 480,
+      "publishedDate": "2019-01-15T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cksyb6oaz1476933b8ggf1t8lvb.png",
+      "authors": [
+        {
+          "id": "ckgm1klhe136050ybvxh3700nu",
+          "name": "Michael Ende",
+          "slug": "michael-ende-w6a15",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "ckqusx8px1pso01eucawf58js",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmay8h51c20170hwnc1xa0p59",
+          "started": "2025-05-21",
+          "finished": "2025-07-03",
+          "followingStatus": null,
+          "updatedAt": "2025-07-03T17:01:03.600+00:00",
+          "createdAt": "2025-05-21T17:45:20.064+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-05-20T18:29:25.968Z"
+      },
+      "id": "cku9o535e34091913wr9pkg5gdu",
+      "slug": "douglas-adams-das-leben-das-universum-and-der-ganze-rest-c9jjo",
+      "title": "Das Leben, das Universum & der ganze Rest",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3861508281",
+      "isbn13": "9783861508281",
+      "language": "de",
+      "pageCount": 221,
+      "publishedDate": "2013-01-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "",
+      "authors": [
+        {
+          "id": "ckemu4zxv0352np0yy27d5x7l",
+          "name": "Douglas Adams",
+          "slug": "douglas-adams-qpbux",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FF99BE",
+        "#DCC7F5",
+        "#FAAFE0"
+      ],
+      "workId": "cl9h2exdx2461150on9schy91wi",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cma2um7xx16408900hwnn5h2e5gh",
+          "started": "2025-04-29",
+          "finished": "2025-05-20",
+          "followingStatus": null,
+          "updatedAt": "2025-05-20T18:29:35.048+00:00",
+          "createdAt": "2025-04-29T18:36:31.029+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-06-16T07:23:54.464Z"
+      },
+      "id": "cluivqn5n11532380hv5mt0dwqod",
+      "slug": "yuval-noah-harari-nexus-plnre",
+      "title": "Nexus",
+      "subtitle": "A Brief History of Information Networks from the Stone Age to AI",
+      "description": "From the #1 New York Times bestselling author of Sapiens comes the groundbreaking story of how information networks have made, and unmade, our world. For the last 100,000 years, we Sapiens have accumulated enormous power. But despite all our discoveries, inventions, and conquests, we now find ourselves in an existential crisis. The world is on the verge of ecological collapse. Misinformation abounds. And we are rushing headlong into the age of AI—a new information network that threatens to annihilate us. For all that we have accomplished, why are we so self-destructive? Nexus looks through the long lens of human history to consider how the flow of information has shaped us, and our world. Taking us from the Stone Age, through the canonization of the Bible, early modern witch-hunts, Stalinism, Nazism, and the resurgence of populism today, Yuval Noah Harari asks us to consider the complex relationship between information and truth, bureaucracy and mythology, wisdom and power. He explores how different societies and political systems throughout history have wielded information to achieve their goals, for good and ill. And he addresses the urgent choices we face as non-human intelligence threatens our very existence. Information is not the raw material of truth; neither is it a mere weapon. Nexus explores the hopeful middle ground between these extremes, and in doing so, rediscovers our shared humanity.",
+      "isbn10": "059373422X",
+      "isbn13": "9780593734223",
+      "language": "en",
+      "pageCount": 0,
+      "publishedDate": "2024-09-10T00:00:00.000Z",
+      "publisher": "Random House",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cluivqn5n11532380hv5mt0dwqod.png",
+      "authors": [
+        {
+          "id": "cketqjuo421340jm0ymvedsdbt",
+          "name": "Yuval Noah Harari",
+          "slug": "yuval-noah-harari-2guoz",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#93D4FF",
+        "#E2F1B7",
+        "#E8F09D"
+      ],
+      "workId": "cluivqn5p11532480hv5bx03hiao",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm92vm4031309710hzb38oz2im0",
+          "started": "2025-04-04",
+          "finished": "2025-06-16",
+          "followingStatus": null,
+          "updatedAt": "2025-06-16T07:24:26.089+00:00",
+          "createdAt": "2025-04-04T14:24:43.203+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-29T18:13:34.993Z"
+      },
+      "id": "cku9o335w35469014uwazbjuswj",
+      "slug": "douglas-adams-das-restaurant-am-ende-des-universums-aphlc",
+      "title": "Das Restaurant am Ende des Universums",
+      "subtitle": "Band 2 der fünfbändigen »Intergalaktischen Trilogie«",
+      "description": null,
+      "isbn10": "3036959564",
+      "isbn13": "9783036959566",
+      "language": "de",
+      "pageCount": 192,
+      "publishedDate": "2017-05-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku9o335w35469014uwazbjuswj.png",
+      "authors": [
+        {
+          "id": "ckemu4zxv0352np0yy27d5x7l",
+          "name": "Douglas Adams",
+          "slug": "douglas-adams-qpbux",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#019BBD",
+        "#FDAEA1",
+        "#FFE0C3"
+      ],
+      "workId": "ckqut4w131t1q01euqcn8xy9h",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm92nkhfb14807540h16wzex8xm9",
+          "started": "2025-04-01",
+          "finished": "2025-04-29",
+          "followingStatus": null,
+          "updatedAt": "2025-04-29T18:14:09.320+00:00",
+          "createdAt": "2025-04-04T10:39:30.359+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T10:42:15.606Z"
+      },
+      "id": "cku9o239434641313w1nsq42nqo",
+      "slug": "douglas-adams-per-anhalter-durch-die-galaxis-5phuw",
+      "title": "Per Anhalter durch die Galaxis",
+      "subtitle": "Band 1 der fünfbändigen »Intergalaktischen Trilogie«",
+      "description": null,
+      "isbn10": "3036959548",
+      "isbn13": "9783036959542",
+      "language": "de",
+      "pageCount": 208,
+      "publishedDate": "2017-05-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku9o239434641313w1nsq42nqo.png",
+      "authors": [
+        {
+          "id": "ckemu4zxv0352np0yy27d5x7l",
+          "name": "Douglas Adams",
+          "slug": "douglas-adams-qpbux",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "ckquqpfld0snu01euktafgmhg",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm92no0vp261630hyy9jqiqyw9",
+          "started": "2025-02-01",
+          "finished": "2025-02-28",
+          "followingStatus": null,
+          "updatedAt": "2025-04-04T10:42:15.541+00:00",
+          "createdAt": "2025-04-04T10:42:15.541+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:12:35.512Z"
+      },
+      "id": "ckwlxaq0d141849714e435d7xrxh",
+      "slug": "hugh-howey-silo-k9kul",
+      "title": "Silo",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3492305032",
+      "isbn13": "9783492305037",
+      "language": "de",
+      "pageCount": 531,
+      "publishedDate": "2014-06-01T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckwlxaq0d141849714e435d7xrxh.png",
+      "authors": [
+        {
+          "id": "ckgcg43n171540zb8afpjha2q",
+          "name": "Hugh Howey",
+          "slug": "hugh-howey-rrl3c",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FF99BE",
+        "#DCC7F5",
+        "#FAAFE0"
+      ],
+      "workId": "ckwqivmd8560213g75ndmvbkt",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbqwmb02645720do8t2fwxml7",
+          "started": "2025-01-04",
+          "finished": "2025-01-29",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T07:59:01.356+00:00",
+          "createdAt": "2026-03-04T07:59:01.356+00:00",
+          "__typename": "ReadDate"
+        },
+        {
+          "id": "cmmbre2iy3690650do8hn0ghz0p",
+          "started": null,
+          "finished": "2026-03-04",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:12:55.116+00:00",
+          "createdAt": "2026-03-04T08:12:35.530+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T10:43:52.442Z"
+      },
+      "id": "ckr1uc2p31aaq01cris81ghve",
+      "slug": "the-hobbit-68dli",
+      "title": "The Hobbit",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "0048231274",
+      "isbn13": "9780048231277",
+      "language": "en",
+      "pageCount": 304,
+      "publishedDate": null,
+      "publisher": "Harper Collins Publishers  Stock Account",
+      "physicalFormat": null,
+      "cover": "",
+      "authors": [
+        {
+          "id": "ckquqh4b20pm901eup5av709c",
+          "name": "J.R.R. Tolkien",
+          "slug": "jrr-tolkien-qfkbp",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "ckquqh46o0pm701euhszmhpre",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm92nq3md4044220hygglvbgj9b",
+          "started": "2024-12-01",
+          "finished": "2025-01-31",
+          "followingStatus": null,
+          "updatedAt": "2025-04-04T10:43:52.957+00:00",
+          "createdAt": "2025-04-04T10:43:52.405+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:13:51.223Z"
+      },
+      "id": "cm93t0gko2860680h0ba3nxiwfx",
+      "slug": "tom-fletcher-der-weihnachtosaurus-und-der-unglaubliche-weihnachtszauber-gmhc5",
+      "title": "Der Weihnachtosaurus und der unglaubliche Weihnachtszauber",
+      "subtitle": null,
+      "description": "Weihnachten in Gefahr!\n\nHabt ihr schon einmal von Ebenezer Scrooge gehört? Der geizigste, elendeste Geizhals, der Weihnachten hasst, aus diesem sehr berühmten alten Buch? Der Mann, der eher BAH HUMBUG als HO HO HO sagt? Was wäre, wenn er SEINE Geschichte verlässt, um in dieser aufzutauchen? Er hat große Pläne . . . er will WEIHNACHTEN ABSAGEN! Aber keine Panik - William Trudel und sein allerbester Freund, der Weihnachtosaurus, können das nicht zulassen. Sie sind fest entschlossen, Scrooge aufzuspüren und Weihnachten vor der völligen Scrooge-Verwandlung zu retten! Und sie sind nicht allein. Die ganze Trudel-Familie, Williams neue Freunde Eddie und Lucy und natürlich der Weihnachtsmann selbst sind hier, um zu helfen! Kann diese Weihnachtscrew Scrooge aufhalten, bevor es zu spät ist und Weihnachten für immer zu HUMBUG wird?",
+      "isbn10": null,
+      "isbn13": "9783570182024",
+      "language": "de",
+      "pageCount": 322,
+      "publishedDate": "2024-10-02T00:00:00.000Z",
+      "publisher": "cbj",
+      "physicalFormat": "paperback",
+      "cover": "/covers/cover-cm93t0gko2860680h0ba3nxiwfx.png",
+      "authors": [
+        {
+          "id": "ckmzgh54c261801i9h1hv1r75w",
+          "name": "Tom Fletcher",
+          "slug": "tom-fletcher-g9lvz",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "cm93t0gko2860690h0bpevuie9p",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbr1olf3048610do8h8zyhxfx",
+          "started": "2024-11-22",
+          "finished": "2024-12-20",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:02:57.603+00:00",
+          "createdAt": "2026-03-04T08:02:57.603+00:00",
+          "__typename": "ReadDate"
+        },
+        {
+          "id": "cmmbrfoxx3898730do8sdmzmq2v",
+          "started": null,
+          "finished": "2026-03-04",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:13:51.872+00:00",
+          "createdAt": "2026-03-04T08:13:51.237+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T18:20:13.293Z"
+      },
+      "id": "cm92yf35i13613150h0bbeegemx6",
+      "slug": "charlotte-habersack-bitte-nicht-offnen-74l0b",
+      "title": "Bitte nicht öffnen",
+      "subtitle": "Feurig!",
+      "description": "Nemo hat einen Plan: Er will dem Päckchen-Verschicker eine Falle stellen. Leider geht das schief und der Spielzeugdrache Drago wird lebendig. Als ob das nicht schon genug wäre, hat Dragos Spucke auch noch interessante Nebenwirkungen. Doch das größte Problem kommt erst noch: Die Einzige, die Drago in ein harmloses Stofftier zurückverwandeln kann, befindet sich am anderen Ende der Welt. Nemo braucht dringend einen Plan B!",
+      "isbn10": null,
+      "isbn13": "9783551652140",
+      "language": "de",
+      "pageCount": 240,
+      "publishedDate": "2019-06-27T00:00:00.000Z",
+      "publisher": "Carlsen Verlag GmbH",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm92yf35i13613150h0bbeegemx6.png",
+      "authors": [
+        {
+          "id": "ckmufvlp324041i6s2rrsrb7x",
+          "name": "Charlotte Habersack",
+          "slug": "charlotte-habersack-hz7k9",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cm92yf35i13613160h0b4j7iyr0m",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm933zkin2678410hzbrn77xq2h",
+          "started": "2024-11-01",
+          "finished": "2024-11-30",
+          "followingStatus": null,
+          "updatedAt": "2025-04-04T18:20:47.381+00:00",
+          "createdAt": "2025-04-04T18:19:08.063+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-05T06:01:46.525Z"
+      },
+      "id": "ckxwaxaby7021690iwi8qezkibw",
+      "slug": "charlotte-habersack-bitte-nicht-offnen-2-schleimig-h2rux",
+      "title": "Bitte nicht öffnen 2: Schleimig!",
+      "subtitle": null,
+      "description": "\"Bitte nicht öffnen!\" steht auf dem geheimnisvollen Päckchen, das Nemo bekommt. Also macht Nemo es auf ... BAND 2: Vor Nemos Haustür liegt ein neues Päckchen. Kaum ist es geöffnet, stellen Nemo und seine Freunde fest: 1. Der grüne, sprechende Pupsschleim darin ist ziemlich kitzelig. 2. Draußen fängt es an zu regnen – Schleimregen! 3. Doch wenn man sich etwas von Schleimi auf die Haut schmiert, passieren wundersame Dinge ... Bald haben Nemo und Fred nur noch eines im Sinn: Mit Schleimis Hilfe wollen sie Millionär werden! Aber wie kommt Schleimi dann zurück nach Hause? Nach dem Kinderbuch-Bestseller-Erfolg von Band 1 nun endlich da: ein neues lustiges und turbulentes Abenteuer rund um Schule, Freundschaft und ein verlorenes Wesen, das nach Hause will! Voller überraschender Wendungen, Sprachwitz und mit vielen Bildern vom unverwechselbaren Fréderic Bertrand. Das perfekte Buch für Jungs und Mädchen - und ihre Eltern!",
+      "isbn10": "3646928344",
+      "isbn13": "9783646928341",
+      "language": "de",
+      "pageCount": 240,
+      "publishedDate": "2018-06-07T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckxwaxaby7021690iwi8qezkibw.png",
+      "authors": [
+        {
+          "id": "ckmufvlp324041i6s2rrsrb7x",
+          "name": "Charlotte Habersack",
+          "slug": "charlotte-habersack-hz7k9",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FF99BE",
+        "#DCC7F5",
+        "#FAAFE0"
+      ],
+      "workId": "ckzts5j0n3714750tbve7di1olk",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm9342yvl10754740hwn0rlm113c",
+          "started": "2024-10-15",
+          "finished": "2024-10-31",
+          "followingStatus": null,
+          "updatedAt": "2025-04-05T06:02:46.576+00:00",
+          "createdAt": "2025-04-04T18:21:46.641+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-05T06:02:05.128Z"
+      },
+      "id": "cl6qnebng5824190ii2i1iyq7t8",
+      "slug": "habersack-charlotte-bitte-nicht-offnen-1-he7ym",
+      "title": "Bitte nicht öffnen 1",
+      "subtitle": "Bissig!",
+      "description": null,
+      "isbn10": "3551652112",
+      "isbn13": "9783551652119",
+      "language": "en",
+      "pageCount": null,
+      "publishedDate": "2022-08-12T15:52:40.040Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cl6qnebng5824190ii2i1iyq7t8.png",
+      "authors": [
+        {
+          "id": "cl6qnebnh5824200ii28v6zauh6",
+          "name": "Habersack  Charlotte",
+          "slug": "habersack-charlotte-36gvu",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cl6qnebnh5824220ii2jbmavmku",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm9343syf2709870hzbdlokeqcb",
+          "started": "2024-10-01",
+          "finished": "2024-10-14",
+          "followingStatus": null,
+          "updatedAt": "2025-04-05T06:02:33.240+00:00",
+          "createdAt": "2025-04-04T18:22:25.623+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T18:28:32.744Z"
+      },
+      "id": "ckr1rr3k70iuf01cr3t20sbyw",
+      "slug": "harry-potter-und-der-orden-des-phonix-3wlro",
+      "title": "Harry Potter und der Orden des Phönix",
+      "subtitle": null,
+      "description": "20 Jahre Harry Potter – anlässlich des Jubiläums erscheinen alle sieben Bände in einer prachtvollen neuen Gestaltung!\r\n\r\nEs sind Sommerferien und wieder einmal sitzt Harry bei den unsäglichen Dursleys fest. Doch diesmal treibt ihn größere Unruhe denn je – warum erfährt er nichts über die dunklen Mächte, die inzwischen neu erstanden sind? Noch ahnt er nicht, was der geheimnisvolle Orden des Phönix gegen Voldemort ausrichten kann ... Doch dann schlägt der Dunkle Lord wieder zu. Harry muss seine Freunde um sich scharen, sonst gibt es kein Entrinnen.\r\n\r\nDies ist der fünfte Band der international erfolgreichen Harry-Potter-Serie, die Generationen geprägt hat.\r\nSource: https://www.carlsen-harrypotter.de/hardcover/harry-potter-und-der-orden-des-ph%C3%B6nix-harry-potter-5-0",
+      "isbn10": "3551557454",
+      "isbn13": "9783551557452",
+      "language": "de",
+      "pageCount": 960,
+      "publishedDate": "2018-07-13T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckr1rr3k70iuf01cr3t20sbyw.png",
+      "authors": [],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "ckquq9f4q0m1301eusf92ukii",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cm9347z0y3299600hyyshdw8vis",
+          "started": "2024-07-01",
+          "finished": "2024-09-30",
+          "followingStatus": null,
+          "updatedAt": "2025-04-04T18:27:49.306+00:00",
+          "createdAt": "2025-04-04T18:25:40.114+00:00",
+          "__typename": "ReadDate"
+        },
+        {
+          "id": "cm934bo9z678760h16wv7frb7f",
+          "started": null,
+          "finished": "2025-04-04",
+          "followingStatus": null,
+          "updatedAt": "2025-04-04T18:28:33.809+00:00",
+          "createdAt": "2025-04-04T18:28:32.807+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:14:02.062Z"
+      },
+      "id": "cm93she064999370h160m9eewmu",
+      "slug": "j-k-rowling-harry-potter-und-der-feuerkelch-4cv5f",
+      "title": "Harry Potter und der Feuerkelch",
+      "subtitle": null,
+      "description": "Detailreiche und prachtvoll veredelte Gestaltung aller Bände anlässlich des 20-jährigen Jubiläums\nHarrys viertes Schuljahr in Hogwarts beginnt und ein Wettkampf hält die Schüler in Atem: das Trimagische Turnier, in dem Harry eine Rolle übernimmt, die er sich im Traum nicht vorgestellt hätte. Natürlich steckt dahinter das Böse, das zurück an die Macht drängt: Lord Voldemort. Es wird eng für Harry. Doch auf seine Freunde und ihre Unterstützung kann er sich auch in verzweifelten Situationen verlassen.",
+      "isbn10": null,
+      "isbn13": "9783551557445",
+      "language": "de",
+      "pageCount": 704,
+      "publishedDate": "2018-08-31T00:00:00.000Z",
+      "publisher": "Carlsen Verlag GmbH",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm93she064999370h160m9eewmu.png",
+      "authors": [
+        {
+          "id": "cl67gacpr12470300ib7o262z0w9",
+          "name": "J. K. Rowling",
+          "slug": "jk-rowling-i2i5l",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#93D4FF",
+        "#E2F1B7",
+        "#E8F09D"
+      ],
+      "workId": "cm93she064999380h167l1nvy1i",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbqsj2u2160870do8fcgu6ho0",
+          "started": "2024-06-05",
+          "finished": "2024-06-30",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:14:14.484+00:00",
+          "createdAt": "2026-03-04T07:55:50.550+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-05T05:40:48.178Z"
+      },
+      "id": "cm93sc3fl4969870h16jfqznodn",
+      "slug": "jk-rowling-harry-poter-und-der-gefangene-von-askaban-y5nar",
+      "title": "Harry Poter und der Gefangene von Askaban",
+      "subtitle": null,
+      "description": "Detailreiche und prachtvoll veredelte Gestaltung aller sieben Bände anlässlich des 20-jährigen Jubiläums\nNatürlich weiß Harry, dass das Zaubern in den Ferien strengstens verboten ist, und trotzdem befördert er seine schreckliche Tante mit einem Schwebezauber an die Decke. Die Konsequenz ist normalerweise: Schulverweis! Doch Harry wird behandelt wie ein rohes Ei. Hat es etwa damit zu tun, dass ein gefürchteter Verbrecher es auf Harry abgesehen hat? Mit Ron und Hermine versucht Harry ein Geflecht aus Verrat und Rache aufzudröseln und stößt dabei auf Dinge, die ihn fast an seinem Verstand zweifeln lassen.\n\nEin generationenübergreifender Fantasy-Klassiker\nMillionen von Leser*innen und mehrere Generationen sind mit den Geschichten von Harry Potter aufgewachsen. Die Autorin hat mit Hogwarts ein Universum geschaffen, das einzigartig ist und eine immense kulturelle Bedeutung erlangt hat. Neben der magischen Welt und spannenden Abenteuern spielen auch moralische Werte wie Freundschaft, Toleranz, Loyalität und der Einsatz für das Gute eine wichtige Rolle.",
+      "isbn10": null,
+      "isbn13": "9783551557438",
+      "language": "de",
+      "pageCount": 448,
+      "publishedDate": "2018-08-31T00:00:00.000Z",
+      "publisher": "Carlsen Verlag GmbH",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm93sc3fl4969870h16jfqznodn.png",
+      "authors": [
+        {
+          "id": "clr40lk899794620gi5phebwl58",
+          "name": "J.K. Rowling",
+          "slug": "jk-rowling-569j0",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "cm93sc3fl4969880h163ombaqkm",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbqtuyv2351780do8xocql9a4",
+          "started": "2024-05-02",
+          "finished": "2024-06-04",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T07:56:52.615+00:00",
+          "createdAt": "2026-03-04T07:56:52.615+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:12:25.464Z"
+      },
+      "id": "cl1jfslz113264200hwn0pq4fjho",
+      "slug": "jk-rowling-harry-potter-and-the-chamber-of-secrets-qlzh8",
+      "title": "Harry Potter and the Chamber of Secrets ",
+      "subtitle": null,
+      "description": null,
+      "isbn10": null,
+      "isbn13": null,
+      "language": "en",
+      "pageCount": 341,
+      "publishedDate": "2022-04-03T15:26:54.763Z",
+      "publisher": null,
+      "physicalFormat": "paperback",
+      "cover": "/covers/cover-cl1jfslz113264200hwn0pq4fjho.png",
+      "authors": [
+        {
+          "id": "cl67gacpr12470300ib7o262z0w9",
+          "name": "J. K. Rowling",
+          "slug": "jk-rowling-i2i5l",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "ckquq8plp0loz01euouoibef1",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbrduqw3669870do8qwnvulak",
+          "started": "2024-03-24",
+          "finished": "2024-04-28",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:12:25.448+00:00",
+          "createdAt": "2026-03-04T08:12:25.448+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:16:32.989Z"
+      },
+      "id": "cm93s6nmk8223040hyy4oic6uqt",
+      "slug": "j-k-rowling-harry-potter-und-der-stein-der-weisen-7yz07",
+      "title": "Harry Potter und der Stein der Weisen",
+      "subtitle": null,
+      "description": "Detailreiche und prachtvoll veredelte Gestaltung aller sieben Bände anlässlich des 20-jährigen Jubiläums\nBis zu seinem elften Geburtstag glaubt Harry, er sei ein ganz normaler Junge. Doch dann erfährt er, dass er sich an der Schule für Hexerei und Zauberei einfinden soll - denn er ist ein Zauberer! In Hogwarts stürzt Harry von einem Abenteuer ins nächste und muss gegen Bestien, Mitschüler und Fabelwesen kämpfen. Da ist es gut, dass er schon Freunde gefunden hat, die ihm im Kampf gegen die dunklen Mächte zur Seite stehen.",
+      "isbn10": null,
+      "isbn13": "9783551557414",
+      "language": "de",
+      "pageCount": 336,
+      "publishedDate": "2018-08-31T00:00:00.000Z",
+      "publisher": "Carlsen Verlag GmbH",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm93s6nmk8223040hyy4oic6uqt.png",
+      "authors": [
+        {
+          "id": "cl67gacpr12470300ib7o262z0w9",
+          "name": "J. K. Rowling",
+          "slug": "jk-rowling-i2i5l",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cm93s6nml8223050hyynt3nb066",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbrihn94214690do8613mza47",
+          "started": "2024-02-05",
+          "finished": "2024-03-17",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:16:42.908+00:00",
+          "createdAt": "2026-03-04T08:16:01.749+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2026-03-04T08:13:24.009Z"
+      },
+      "id": "cm93sub2d8355980hyyj57mlylp",
+      "slug": "tom-fletcher-der-weihnachtosaurus-und-die-bose-liste-4oxri",
+      "title": "Der Weihnachtosaurus und die böse Liste",
+      "subtitle": null,
+      "description": "Ein perfektes Weihnachtsabenteuer, wunderschön illustriert\n\nDer Weihnachtsmann kann es nicht fassen: Seine böse Liste wird lang und länger. Plötzlich taucht da ein Name auf, den niemand erwartet hätte: William Trudel, der zweifache Retter des Weihnachtsfests und beste Freund des Weihnachtosaurus! Unverzüglich macht sich der Weihnachtsdino auf die Reise, um herauszufinden, was mit William passiert ist. Unterwegs trifft der Saurier jede Menge Kinder, die auch auf der berüchtigten Liste stehen - und auf einmal geht es um viel mehr, als zwischen Falsch und Richtig zu unterscheiden . . .",
+      "isbn10": null,
+      "isbn13": "9783570180150",
+      "language": "de",
+      "pageCount": 432,
+      "publishedDate": "2025-04-05T05:54:52.882Z",
+      "publisher": "cbj",
+      "physicalFormat": "paperback",
+      "cover": "/covers/cover-cm93sub2d8355980hyyj57mlylp.png",
+      "authors": [
+        {
+          "id": "ckmzgh54c261801i9h1hv1r75w",
+          "name": "Tom Fletcher",
+          "slug": "tom-fletcher-g9lvz",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "cm93sub2e8355990hyyw76fv0dl",
+      "__typename": "Book",
+      "readingDates": [
+        {
+          "id": "cmmbr2umt3106180do8bhg216s3",
+          "started": "2023-11-14",
+          "finished": "2023-12-18",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:03:52.085+00:00",
+          "createdAt": "2026-03-04T08:03:52.085+00:00",
+          "__typename": "ReadDate"
+        },
+        {
+          "id": "cmmbrf3y23828180do8csub3qs3",
+          "started": null,
+          "finished": "2026-03-04",
+          "followingStatus": null,
+          "updatedAt": "2026-03-04T08:13:24.691+00:00",
+          "createdAt": "2026-03-04T08:13:24.026+00:00",
+          "__typename": "ReadDate"
+        }
+      ]
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:01:14.677Z"
+      },
+      "id": "cl6qnh8ol6278970ii2m5l0187s",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-5-top-oder-flop-ax15o",
+      "title": "Die Schule der magischen Tiere 5: Top oder Flop!",
+      "subtitle": null,
+      "description": "Band 5 der Reihe fühlt dem Sinn und Unsinn von Quizsendungen auf den Zahn. Die Klasse von Miss Cornfield hat sich für die Quizsendung \"Top oder Flop\" qualifiziert. Im Laufe der Show bemerken die Schüler Manipulationen des Moderators und sind entsetzt über seine \"Späe︢\", die die Schadenfreude der Zuschauer und die Einschaltquoten steigern sollen. Schliesslich stellen die Kinder fest, dass ein Wettkampf vor allem Spass machen sollte und beenden den Konkurrenzkampf mit einer allgemeinen Schlammschlacht. Einige überaus ehrgeizige Teilnehmer lernen Teamgeist und der alberne Moderator wird von den Kindern abserviert. Die Kinder haben (fast) alles im Griff und Fans der Reihe werden begeistert sein, auch über die coolen magischen Neuankömmlinge, eine Ratte und einen Schimpansen. Das Cover ist attraktiv gestaltet, mit sympathischen Kinderfiguren und Ricky dem Kroko als Blickfang. Witzige Schwarz-Weiss-Illustrationen und Vignetten sowie die grosse und gut lesbare Schrift lockern den Band auf, wie gewohnt. Zur Fortsetzung empfohlen! Ab 10",
+      "isbn10": "3551652759",
+      "isbn13": "9783551652751",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2014-11-21T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cl6qnh8ol6278970ii2m5l0187s.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#93D4FF",
+        "#E2F1B7",
+        "#E8F09D"
+      ],
+      "workId": "cl9i95psx14333100ohl71fh0dng",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:02:52.279Z"
+      },
+      "id": "cljg0plcf1938910hrh8wvr4qk0",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-8-voll-verknallt-uwbfr",
+      "title": "Die Schule der magischen Tiere 8: Voll verknallt!",
+      "subtitle": null,
+      "description": "Jetzt kostenlos herunterladen – die App zur Serie! *** Wer in der Klasse wird heute ein magisches, sprechendes Tier erhalten? *** BAND 8: Alles rosarot in der Wintersteinschule! Der große Schulball wirbelt Miss Cornfields Klasse durcheinander: Sibel will mit Jo tanzen, Jo will mit Luna tanzen und was will eigentlich Ida? Die magischen Tiere kommen aus dem Staunen gar nicht mehr heraus. Schildkröte Henrietta weiß: \"Verknallt ist, wenn man einen Knall hat.\" Inmitten des ganzen Trubels aber warten zwei Schüler sehnsüchtig auf ihr magisches Tier ... *** DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis: Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört ... *** Viele Bilder, viele kurze Kapitel, viel Lesespaß! Endlich da: Der achte Band der beliebten Bestseller-Reihe! Schon jetzt ein Kinderbuchklassiker",
+      "isbn10": "3646928026",
+      "isbn13": "9783646928020",
+      "language": "de",
+      "pageCount": 226,
+      "publishedDate": "2016-11-25T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cljg0plcf1938910hrh8wvr4qk0.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FF99BE",
+        "#DCC7F5",
+        "#FAAFE0"
+      ],
+      "workId": "cljg0plch1939020hrhyh39rctn",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:03:05.862Z"
+      },
+      "id": "ckuwqmzfy3529831fullf474l9v",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-9-versteinert-zkzc8",
+      "title": "Die Schule der magischen Tiere 9: Versteinert!",
+      "subtitle": null,
+      "description": "Jetzt kostenlos herunterladen – die App zur Serie! *** Wer in der Klasse wird heute ein magisches, sprechendes Tier erhalten? *** BAND 9: Gibt es etwas Schöneres als magische Tiere? Doch auf einmal passiert etwas Schlimmes: Die magischen Tiere versteinern in normale Kuscheltiere – und verwandeln sich nicht mehr zurück! Die Klasse ist verzweifelt, Miss Cornfield ratlos. Alle Hoffnung ruht nun auf den tapferen Tieren, die noch in der magischen Zoohandlung warten – und Eisbär Murphy hat bärenstarke Nerven ... *** DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis! Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört ... *** Auch die \"Schule der magischen Tiere\"-Fans brauchen im neuen Abenteuer starke Nerven! Es wird spannend! Und wie immer gibt es viele Bilder, viele kurze Kapitel und ganz viel Lesespaß! Der neue Band der Bestseller-Reihe - schon jetzt ein Kinderbuchklassiker!",
+      "isbn10": "3646929952",
+      "isbn13": "9783646929959",
+      "language": "de",
+      "pageCount": 240,
+      "publishedDate": "2017-11-30T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuwqmzfy3529831fullf474l9v.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cl9h2q40o6577530on9nnq7fl7s",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:01:03.103Z"
+      },
+      "id": "ckuzap9yu9345971i8bsqz3kn7d",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-4-abgefahren-yha5i",
+      "title": "Die Schule der magischen Tiere 4: Abgefahren!",
+      "subtitle": null,
+      "description": "Die Schule der magischen Tiere fährt ins Schullandheim - die magischen Tiere kommen natürlich mit! Welches Kind wird diesmal ein sprechendes Tier aus Mr. Morrisons magischer Zoohandlung als besten Freund bekommen? Der nervige Silas kriegt ein Tier auf Probe. Es ist ein Krokodil! Ab 10.",
+      "isbn10": "3551652740",
+      "isbn13": "9783551652744",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2014-04-25T00:00:00.000Z",
+      "publisher": "CARLSEN Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuzap9yu9345971i8bsqz3kn7d.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "ckzsfpazp16219540tbv8q7e6q5n",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:00:38.556Z"
+      },
+      "id": "ckuzapdbp9351911i8bcqq3m9xg",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-1-die-schule-der-magischen-tiere-d7r3q",
+      "title": "Die Schule der magischen Tiere 1: Die Schule der magischen Tiere",
+      "subtitle": null,
+      "description": "In der neuen Schule fühlt sich Ida gar nicht wohl. Doch dann erzählt ihnen die Lehrerin Miss Cornfield von der magischen Zoohandlung - und Ida erhält ein magisches Tier. Ein Abenteuer beginnt...",
+      "isbn10": "3551652716",
+      "isbn13": "9783551652713",
+      "language": "de",
+      "pageCount": 208,
+      "publishedDate": "2013-04-25T00:00:00.000Z",
+      "publisher": "CARLSEN Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuzapdbp9351911i8bcqq3m9xg.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "ckzs98b7713556930tbvhtqwtnc2",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:00:50.940Z"
+      },
+      "id": "ckuzapbv59350131i8bbmwyjwev",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-2-voller-locher-1n5h5",
+      "title": "Die Schule der magischen Tiere 2: Voller Löcher!",
+      "subtitle": null,
+      "description": "Es geht weiter mit Erlebnissen und Abenteuern aus der Schule der magischen Tiere. Ein magisches Tier kann mit dem ihm zugedachten Kind reden, es ist sein allerbester Freund, begleitet es und hilft ihm. Aber keiner darf über sein Tier mit anderen sprechen. Mortimer, Inhaber der magischen Zoohandlung und Bruder der Klassenleiterin, hat Ida den Fuchs Rabbat und Benni die Schildkröte Henrietta gebracht. Wem schenkt er das nächste Tier? In der Klasse gibt es viel Aufregung, bis für das Theaterstück \"Robin Hood\" die Rollen verteilt und einstudiert sind. Aber nach etlichen Zickenkämpfen und sonderbaren Zwischenfällen wird es ein voller Erfolg. Das allergröt︢e Problem in der Wintersteinschule sind jedoch Löcher und abermals Löcher. Nacht für Nacht entstehen neue auf der Wiese, die alle Leute der Schule Tag für Tag wieder zubuddeln müssen. Der Architekt befürchtet sogar, dass die Schule einstürzen kann. Wer oder was steckt dahinter? Eine spannende, fantasievolle, lustige Geschichte - überall zur Fortsetzung. Ab 10",
+      "isbn10": "3551652724",
+      "isbn13": "9783551652720",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2013-04-25T00:00:00.000Z",
+      "publisher": "CARLSEN Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuzapbv59350131i8bbmwyjwev.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "ckzqrobqf6742680tbv0vcxw59d",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:02:24.903Z"
+      },
+      "id": "ckuwqnoux48688015sxvrwtsiga",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-6-nass-und-nasser-jmek0",
+      "title": "Die Schule der magischen Tiere 6: Nass und nasser",
+      "subtitle": null,
+      "description": "Jetzt kostenlos herunterladen – die App zur Serie! *** Wer in der Klasse wird heute ein magisches, sprechendes Tier erhalten? *** BAND 6: Sommer, Sonne, Schwimmbad! Vergnügt planschen Miss Cornfields Klasse und die magischen Tiere im Wasser – alle, bis auf Hatice. Wie soll sie nur jemals das Seepferdchen schaffen? Henry hat genug vom Streit mit seinen Eltern. Er läuft von zu Hause weg. Im Wald kämpft er verzweifelt ums Überleben. Und erhält unerwartete Hilfe: von einem magischen Leoparden ... *** DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis: Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört... Viele Bilder, viele kurze Kapitel, viel Lesespaß! Der sechste Band der Bestseller-Reihe!",
+      "isbn10": "3646928085",
+      "isbn13": "9783646928082",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2015-07-02T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuwqnoux48688015sxvrwtsiga.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#93D4FF",
+        "#E2F1B7",
+        "#E8F09D"
+      ],
+      "workId": "cl9h2q45w6577950on93hb3jj2h",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:00:57.480Z"
+      },
+      "id": "ckuzapapc9347671i8b8nd843wh",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-3-licht-aus-11vjm",
+      "title": "Die Schule der magischen Tiere 3: Licht aus!",
+      "subtitle": null,
+      "description": "Ein neues Abenteuer aus der \"Schule der magischen Tiere\". Kann eines der magischen Tiere - Fledermaus Eugenia - helfen, eine alte Kastanie zu retten? Ab 10.",
+      "isbn10": "3551652732",
+      "isbn13": "9783551652737",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2013-11-22T00:00:00.000Z",
+      "publisher": "CARLSEN Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckuzapapc9347671i8b8nd843wh.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "ckzs68ruh12252100tbvvjllp52g",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:23:39.933Z"
+      },
+      "id": "cm92xpsjl5596800hygz88f2f93",
+      "slug": "christian-linker-boy-from-mars-9r2ux",
+      "title": "Boy from Mars",
+      "subtitle": "Auf der Jagd nach der Wahrheit",
+      "description": "Ein Junge vom Mars, der sich auf der Erde zurechtfinden muss. Eine zusammengewürfelte Gang von Außenseitern. Und die abenteuerliche Suche nach einer mächtigen Erfindung.",
+      "isbn10": null,
+      "isbn13": "9783423764681",
+      "language": "de",
+      "pageCount": 287,
+      "publishedDate": "2025-04-04T15:23:34.173Z",
+      "publisher": "dtv",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm92xpsjl5596800hygz88f2f93.png",
+      "authors": [
+        {
+          "id": "cks99ycla39279914um4wvedhvz",
+          "name": "Christian Linker",
+          "slug": "christian-linker-k8d8e",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FF99BE",
+        "#DCC7F5",
+        "#FAAFE0"
+      ],
+      "workId": "cm92xpsjl5596810hygzh8xa1b6",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:02:38.873Z"
+      },
+      "id": "cku2o9tkf932306yz7a6l0vmq31",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-7-wo-ist-mr-m-z80j9",
+      "title": "Die Schule der magischen Tiere 7: Wo ist Mr. M?",
+      "subtitle": null,
+      "description": "Ein neues Abenteuer aus der \"Schule der magischen Tiere\". Ab 10.",
+      "isbn10": "3551652775",
+      "isbn13": "9783551652775",
+      "language": "de",
+      "pageCount": 224,
+      "publishedDate": "2015-11-27T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku2o9tkf932306yz7a6l0vmq31.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "ckzortgcl7625670tbvwzybvc5z",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:10:46.529Z"
+      },
+      "id": "cksyze72y2268742w7oez5m129k",
+      "slug": "tom-fletcher-der-weihnachtosaurus-gno25",
+      "title": "Der Weihnachtosaurus",
+      "subtitle": null,
+      "description": null,
+      "isbn10": "3570164993",
+      "isbn13": "9783570164990",
+      "language": "de",
+      "pageCount": 379,
+      "publishedDate": "2017-10-02T00:00:00.000Z",
+      "publisher": null,
+      "physicalFormat": null,
+      "cover": "/covers/cover-cksyze72y2268742w7oez5m129k.png",
+      "authors": [
+        {
+          "id": "ckmzgh54c261801i9h1hv1r75w",
+          "name": "Tom Fletcher",
+          "slug": "tom-fletcher-g9lvz",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#019BBD",
+        "#FDAEA1",
+        "#FFE0C3"
+      ],
+      "workId": "ckznwxvuq3825350sb5mun1jbfn",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:11:00.887Z"
+      },
+      "id": "cku9o61j635540713y7ybuhuhaq",
+      "slug": "tom-fletcher-der-weihnachtosaurus-und-die-winterhexe-hdpd4",
+      "title": "Der Weihnachtosaurus und die Winterhexe",
+      "subtitle": null,
+      "description": "Endlich wieder Weihnachten mit dem Weihnachtosaurus! Ein Jahr nach seiner Begegnung mit dem außergewöhnlichsten Dinosaurier aller Zeiten, dem Weihnachtosaurus, bekommt William Trudel eine Einladung an den magischen Nordpol vom Weihnachtsmann persönlich. Dort trifft er während einer exklusiven Tour zu allen fantastischen Sehenswürdigkeiten auch auf die unheimliche Winterhexe. Sie ist die Herrscherin über die Zeit, und der Weihnachtsmann braucht sie, damit ihm in der Weihnachtsnacht seine große Reise zu allen Kindern der Welt gelingt. Doch etwas ist aus dem Lot geraten und das schönste aller Feste schwebt in höchster Gefahr! Nun müssen William und der Weihnachtosaurus klug und mutig handeln, um Weihnachten zu retten ...",
+      "isbn10": "3641253411",
+      "isbn13": "9783641253417",
+      "language": "de",
+      "pageCount": 432,
+      "publishedDate": "2019-10-14T00:00:00.000Z",
+      "publisher": "cbj Verlag",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cku9o61j635540713y7ybuhuhaq.png",
+      "authors": [
+        {
+          "id": "ckmzgh54c261801i9h1hv1r75w",
+          "name": "Tom Fletcher",
+          "slug": "tom-fletcher-g9lvz",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "ckzp0hzwj11876690tbv7vnmpw38",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:48:38.558Z"
+      },
+      "id": "cm92ylxut16561980h16b9gfqq2e",
+      "slug": "charlotte-habersack-bitte-nicht-offnen-qmv3b",
+      "title": "Bitte nicht öffnen",
+      "subtitle": "Durstig!",
+      "description": "\"Für ein neues Monster hab ich echt keine Zeit!\" Als Nemo das dritte Päckchen bekommt, bringt er es ungeöffnet zurück zur Post. Erledigt, denkt Nemo. Gut gemacht, denken seine Freunde. Falsch gedacht! Denn als es mitten am Tag plötzlich stockdunkel wird, ist klar, dass jemand anderes die Kiste aufgemacht hat. Die drei Freunde beginnen sofort mit der Suche nach dem freilaufenden Monster. Dabei wissen sie gar nicht, wonach sie Ausschau halten sollen. Der einzige Hinweis stand auf der Kiste: \"Bitte nicht öffnen - durstig\".",
+      "isbn10": null,
+      "isbn13": "9783551652133",
+      "language": "de",
+      "pageCount": 240,
+      "publishedDate": "2018-05-31T00:00:00.000Z",
+      "publisher": "Carlsen Verlag GmbH",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm92ylxut16561980h16b9gfqq2e.png",
+      "authors": [
+        {
+          "id": "ckmufvlp324041i6s2rrsrb7x",
+          "name": "Charlotte Habersack",
+          "slug": "charlotte-habersack-hz7k9",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cm92ylxut16561990h16xm3zyze2",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:53:55.440Z"
+      },
+      "id": "cljg0plbb1938220hrh9qbozk4i",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-10-hin-und-weg-dlzry",
+      "title": "Die Schule der magischen Tiere 10: Hin und weg!",
+      "subtitle": null,
+      "description": "Jetzt kostenlos herunterladen – die App zur Serie! *** Wer in der Klasse wird heute ein magisches, sprechendes Tier erhalten? *** BAND 10: An der Wintersteinschule ist was los! Die Jungs sind hin und weg, denn ein Fußball-Casting sorgt für Aufregung. – Ein magisches Meerschweinchen taucht auf. Das Problem: Es will nicht sprechen – und verkrümelt sich in eine unmagische, mümmelnde Meerschweinchen-Gruppe. – Und: \"Oje, oje, oje!“, jammert Eule Muriel. Denn ein Kind aus der Klasse wird mit seinem magischen Tier wegziehen ... *** *** DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis! Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört ... *** Für die \"Schule der magischen Tiere\"-Fans wird es wieder spannend! Ein neues Abenteuer wartet – wie immer gibt es viele Bilder, viele kurze Kapitel und ganz viel Lesespaß! *** Der neue Band der Bestseller-Reihe – schon jetzt ein Kinderbuchklassiker!",
+      "isbn10": "3551652805",
+      "isbn13": "9783551652805",
+      "language": "de",
+      "pageCount": 274,
+      "publishedDate": "2018-11-30T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cljg0plbb1938220hrh9qbozk4i.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#E6A9E8",
+        "#81CAFF",
+        "#F9D0F0"
+      ],
+      "workId": "cljg0plbe1938330hrhovptgvwi",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:54:36.275Z"
+      },
+      "id": "cljg0plc41938540hrhxdzuxsxq",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-13-bravo-bravissimo-3hfgz",
+      "title": "Die Schule der magischen Tiere 13: Bravo, bravissimo!",
+      "subtitle": null,
+      "description": "Wer in der Klasse wird heute ein magisches, sprechendes Tier erhalten? *** BAND 13: Es ist einiges los in der Wintersteinschule: Die Band Tausendsassa gibt ein Konzert in der Stadt! Es ist ja wohl klar, dass Ida, Benni und die anderen unbedingt dabei sein wollen . Aber wie sollen sie an die teuren Karten kommen? Die Freunde schmieden wilde Pläne: Vielleicht können sie die Karten gewinnen? Es gibt einen Wettbewerb, bei dem die Klasse einen Song von Tausendsassa aufführen muss. \"Bravo, bravissimo!\", ruft Tingo, da sind die magischen Tiere mit dabei! Es wird geprobt, gesungen und gelacht. Nur ein Schüler ist nicht fröhlich: Seine Oma ist ins Heim gezogen. Bekommt er vielleicht magische Unterstützung? DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis: Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört ... *** Viele Bilder, viele kurze Kapitel, viel Lesespaß! Der dreizehnte Band der beliebten Bestseller-Reihe! Jetzt kostenlos herunterladen – die App zur Serie! ***",
+      "isbn10": "3646933186",
+      "isbn13": "9783646933185",
+      "language": "de",
+      "pageCount": 273,
+      "publishedDate": "2022-10-22T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-cljg0plc41938540hrhxdzuxsxq.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#FDAEA1",
+        "#FFEFB8",
+        "#FFE0C3"
+      ],
+      "workId": "cljg0plc71938660hrhvgevmcn7",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T16:20:16.625Z"
+      },
+      "id": "clrqvexpb12002350hsnxd65lpxn",
+      "slug": "margit-auer-die-schule-der-magischen-tiere-11-wilder-wilder-wald-z93v9",
+      "title": "Die Schule der magischen Tiere 11: Wilder, wilder Wald!",
+      "subtitle": null,
+      "description": "Jetzt kostenlos herunterladen – die App zur Serie! *** Wer in der Klasse wird diesmal ein magisches, sprechendes Tier erhalten? *** BAND 11: Miss Cornfields Klasse fährt ins Wildniscamp! Und Elisa freut sich besonders, im Wald fühlt sie sich geborgen. Anders als zu Hause, wo es nur Stress gibt mit ihrem Bruder Marvin. Gemeinsam bauen die Kinder eine Futterkrippe und backen ihr eigenes Brot – doch irgendetwas stimmt nicht! Im Wald schleicht ein dunkler Schatten umher. „Ganz schön unheimlicherich“, findet Fledermaus Eugenia. Elisa ist oft allein im Wald unterwegs. Ist sie in Gefahr? DIE SCHULE DER MAGISCHEN TIERE: Diese Schule birgt ein Geheimnis! Wer Glück hat, findet hier den besten Freund, den es auf der Welt gibt. Ein magisches Tier. Ein Tier, das sprechen kann. Wenn es zu dir gehört ... *** Für die Fans der \"Schule der magischen Tiere\" wird es wild! Viele Bilder, viele kurze Kapitel und jede Menge Lesespaß! *** Der neue Band der Bestseller-Reihe – schon jetzt ein Kinderbuchklassiker!",
+      "isbn10": "3551653615",
+      "isbn13": "9783551653611",
+      "language": "de",
+      "pageCount": 258,
+      "publishedDate": "2021-01-28T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-clrqvexpb12002350hsnxd65lpxn.png",
+      "authors": [
+        {
+          "id": "cku09qou6944131eyuyxudwop2",
+          "name": "Margit Auer",
+          "slug": "margit-auer-h54kg",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#019BBD",
+        "#FDAEA1",
+        "#FFE0C3"
+      ],
+      "workId": "clrqvexpd12002400hsn9l0zabee",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-04T15:10:07.791Z"
+      },
+      "id": "ckv25byfs37134015txqp4uurqn",
+      "slug": "jk-rowling-jacks-wundersame-reise-mit-dem-weihnachtsschwein-l7p5q",
+      "title": "Jacks wundersame Reise mit dem Weihnachtsschwein",
+      "subtitle": null,
+      "description": "Was tun, wenn der allerbeste Freund plötzlich verschwindet? Jack und sein geliebtes Kuscheltier Swein sind unzertrennlich. Doch eines Tages passiert etwas Schreckliches und Swein geht verloren. Um ihn zurückzugewinnen, muss Jack ins Land der Verlorenen – einen magischen Ort voller Überraschungen und seltsamer Wesen. Dort muss er sich vielen Gefahren stellen und wird am Ende vor die größte Entscheidung seines Lebens gestellt – schließlich geht es um seinen besten Freund! Die berührende Geschichte über wahre Freundschaft und den Mut, über sich selbst hinauszuwachsen, hat bezaubernde Bilder und ist ideal zum Vor- und Selberlesen geeignet. Ein herzerwärmendes Kinderbuch von Bestseller-Autorin J.K. Rowling mit Charme, Spannung und ganz viel Magie!",
+      "isbn10": "3646935995",
+      "isbn13": "9783646935998",
+      "language": "de",
+      "pageCount": 336,
+      "publishedDate": "2021-10-12T00:00:00.000Z",
+      "publisher": "Carlsen",
+      "physicalFormat": null,
+      "cover": "/covers/cover-ckv25byfs37134015txqp4uurqn.png",
+      "authors": [
+        {
+          "id": "cl67gacpr12470300ib7o262z0w9",
+          "name": "J. K. Rowling",
+          "slug": "jk-rowling-i2i5l",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#ADCBF9",
+        "#C2F5FC",
+        "#C1F2D3"
+      ],
+      "workId": "ckzsya9507462440tbve6uwuszv",
+      "__typename": "Book",
+      "readingDates": []
+    },
+    {
+      "readingState": {
+        "status": "FINISHED",
+        "createdAt": "2025-04-05T05:48:56.469Z"
+      },
+      "id": "cm93smgh08313900hyy8zuhhnjf",
+      "slug": "kathrin-tordasi-die-reise-zum-mittelpunkt-der-magie-3231p",
+      "title": "Die Reise zum Mittelpunkt der Magie",
+      "subtitle": null,
+      "description": "Komm mit auf eine magische Schnitzeljagd\n\nFlo ist neu in der Stadt, und schon am ersten Tag weht ihr der Zufall eine geheimnisvolle Schatzkarte vor die Füße: Walter Wonderly's Wundersamer Wegweiser zur Quelle der Magie steht darauf. Sonst nichts. Was soll das für ein Wegweiser sein, der nicht einmal eine Richtung anzeigt? Bestimmt nur irgendeine von Erwachsenen organisierte Schnitzeljagd. Gemeinsam mit ihrer neugierigen Nachbarin Malú und dem chaotischen George begibt Flo sich auf eine magische Erkundungstour, begegnet einer Kryptozoologin, echten Feen und verzauberten Koboldkatzen. Doch auf Wonderlys Fährte lauern auch Gefahren, und bald stellt sich heraus, dass Flo das Abenteuer nur mit Hilfe der stärksten Zauberkraft überstehen wird . . .",
+      "isbn10": null,
+      "isbn13": "9783737361309",
+      "language": "de",
+      "pageCount": 318,
+      "publishedDate": "2023-08-30T00:00:00.000Z",
+      "publisher": "FISCHER Sauerländer",
+      "physicalFormat": "hardcover",
+      "cover": "/covers/cover-cm93smgh08313900hyy8zuhhnjf.png",
+      "authors": [
+        {
+          "id": "ckt4eiu3o7987814tcbm7gl55w",
+          "name": "Kathrin Tordasi",
+          "slug": "kathrin-tordasi-wmlez",
+          "__typename": "Author"
+        }
+      ],
+      "gradientColors": [
+        "#B0DAF2",
+        "#FFF4CF",
+        "#B1D6B0"
+      ],
+      "workId": "cm93smgh08313910hyywvolm4m6",
+      "__typename": "Book",
+      "readingDates": []
+    }
+  ],
+  "cached": 1772612290028
+}

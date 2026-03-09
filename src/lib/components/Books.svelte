@@ -40,10 +40,10 @@
         directionalLight.shadow.mapSize.width = 1024;
         directionalLight.shadow.mapSize.height = 1024;
         directionalLight.shadow.camera.near = 0.5;
-        directionalLight.shadow.camera.far = 50;
+        directionalLight.shadow.camera.far = 100;
         directionalLight.shadow.bias = -0.0005;
         directionalLight.shadow.normalBias = 0.02;
-        const d = 17; // Adjusted frustum size
+        const d =25; // Adjusted frustum size
         directionalLight.shadow.camera.left = -d;
         directionalLight.shadow.camera.right = d;
         directionalLight.shadow.camera.top = d;
@@ -81,7 +81,7 @@
         const readingBooks = books.filter(b => b.cover && b.readingState.status == 'IS_READING');
         const bookModels = await loadModels(scene, readingBooks, books);
 
-        scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
+        //scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
 
         // Animation loop
         let animationId: number;

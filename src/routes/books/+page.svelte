@@ -37,13 +37,21 @@
         </div>
     </div>
 
-    <div class="py-20 max-w-4xl mx-auto px-5 lg:px-0">
+    <div class="py-20 max-w-4xl mx-auto px-5 lg:px-0 space-y-8">
         <h1 class="text-4xl font-bold text-center headline mb-8">Books</h1>
         <p class="text-center text-neutral-600">
             A collection of books that I have read over the time. Most of these have served as bedtime stories to my
             children's, and if I’m being honest, I love the magic just as much as they do—there’s nothing quite like
             getting lost in a story and bringing every character to life with their own unique voice. as well.
         </p>
+        <p class="text-center text-neutral-600">
+            I used to track my books in literal.club but moved in 2026 to hardcover.app.<br>So the data is sourced from both platforms.
+        </p>
+        <div class="flex items-center justify-center">
+            <a href="https://hardcover.app/@dannystey" target="_blank" rel="noopener noreferrer">
+                <Button icon="external">Follow me on hardcover.app</Button>
+            </a>
+        </div>
     </div>
     {#if booksByYear}
         {#each years as year, yearIndex}
@@ -82,7 +90,9 @@
                                 {/if}
                             </p>
                                     {/if}
+                            {#if book.pageCount}
                             <div class="  mt-1 bg-neutral-800 rounded-full inline-block px-2 py-1 w-12 text-center text-xs text-white">{book.pageCount}</div>
+                            {/if}
                         </div>
                     </div>
                     {/if}

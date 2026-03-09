@@ -23,6 +23,7 @@ export const loadModels = async (scene: THREE.Scene, readingBooks, books) => {
             child.castShadow = true;
         }
     });
+
     completedBooks[1].model = backgroundBook;
     applyTextureToBook(completedBooks[1], completedBooks[1].texture);
     const backgroundBook2 = backgroundBook.clone();
@@ -40,11 +41,13 @@ export const loadModels = async (scene: THREE.Scene, readingBooks, books) => {
         if (index === 0) {
             child.rotation.z = Math.PI - 0.1;
             completedBooks[3].model = child;
+            child.castShadow = true;
             applyTextureToBook(completedBooks[3], completedBooks[3].texture);
         }
         if (index === 1) {
             child.rotation.z = Math.PI + 0.2;
             completedBooks[2].model = child;
+            child.castShadow = true;
             applyTextureToBook(completedBooks[2], completedBooks[2].texture);
         }
     })
