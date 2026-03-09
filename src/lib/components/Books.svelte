@@ -35,7 +35,7 @@
         scene.add(ambientLight);
 
         const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-        directionalLight.position.set(18, 10, 20);
+        directionalLight.position.set(7, 20, 40);
         directionalLight.castShadow = true;
         directionalLight.shadow.mapSize.width = 1024;
         directionalLight.shadow.mapSize.height = 1024;
@@ -81,7 +81,7 @@
         const readingBooks = books.filter(b => b.cover && b.readingState.status == 'IS_READING');
         const bookModels = await loadModels(scene, readingBooks, books);
 
-        //scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
+        scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
 
         // Animation loop
         let animationId: number;
