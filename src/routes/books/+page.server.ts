@@ -9,7 +9,7 @@ export const load: PageServerLoad = async () => {
         let cacheData: any = null;
         if (fs.existsSync('./static/books.json')) {
             cacheData = JSON.parse(fs.readFileSync('./static/books.json', 'utf8'));
-            if (cacheData.cached + 1000 * 60 * 60 * 24 * 2 > Date.now() && false) {
+            if (cacheData.cached + 1000 * 60 * 60 * 24 * 2 > Date.now()) {
                 return cacheData;
             }
         }
@@ -20,8 +20,6 @@ export const load: PageServerLoad = async () => {
              literalData = JSON.parse(fs.readFileSync('./static/literal.json', 'utf8'));
              filteredBookData = literalData.books || [];
         }
-
-        console.log(env);
         if (env.HARDCOVER_API_KEY) {
             const hcBooks = await hardcoverService.getCurrentlyReading();
             const hcMappedBooks = hcBooks.map(hc => ({
