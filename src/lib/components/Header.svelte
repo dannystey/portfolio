@@ -29,7 +29,7 @@
             <div class="hidden lg:block ring-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-100 h-100 border rounded-full border-neutral-400 pointer-event-none"></div>
         </div>
 
-        <div type="button" class="{ open ? 'w-[calc(100vw-60px)] rounded-[1.5rem] max-h-50' : 'w-10 h-10 rounded-[1.5rem] max-h-10'} overflow-hidden duration-300 transition-all bg-neutral-800 text-white lg:hidden absolute top-5 right-5 z-20" aria-label="Menu">
+        <div type="button" class="{ open ? 'w-[calc(100vw-60px)] rounded-[1.5rem] max-h-80' : 'w-10 h-10 rounded-[1.5rem] max-h-10'} overflow-hidden duration-300 transition-all bg-neutral-800 text-white lg:hidden absolute top-5 right-5 z-20" aria-label="Menu">
             <button onclick={() => open = !open} class="absolute top-2 right-2 w-6 h-6">
                 <div class="{ open ? 'rotate-45' : 'mt-1'} transition-transform h-px w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white"></div>
                 <div class="{ open ? '-rotate-45' : '-mt-1'} transition-transform h-px w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white"></div>
