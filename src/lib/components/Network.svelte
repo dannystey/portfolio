@@ -38,7 +38,7 @@
         <p class="text-xl">Collaborators and partners I’m proud to recommend.</p>
     </div>
 
-    <div class="glide relative pr-20 xl:pr-0" bind:this={glideElement}>
+    <div class="glide relative pr-10 xl:pr-0" bind:this={glideElement}>
             <div class="bg-gradient-to-l from-80% from-white to-transparent z-10 absolute bottom-0 top-0 left-full w-screen"></div>
             <div class="bg-gradient-to-r from-80% from-white to-transparent z-10 absolute bottom-0 top-0 right-full w-screen"></div>
         <div class="glide__track !overflow-visible relative" data-glide-el="track">

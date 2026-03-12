@@ -8,6 +8,7 @@ node_modules
 /.svelte-kit
 /build
 
+/static/covers
 /static/books.json
 /static/projects.son
 
