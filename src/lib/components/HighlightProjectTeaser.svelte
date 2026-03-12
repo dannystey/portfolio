@@ -3,7 +3,7 @@ import Button from '$lib/components/Button.svelte'
 </script>
 
 <div class="max-w-screen-xl  relative mx-auto px-5 lg:px-12 mb-40">
-    <div class="lg:grid grid-cols-2 gap-20 mb-10">
+    <div class="lg:grid mb-12">
         <h2 class="text-3xl mb-5 font-bold headline">Side Projects</h2>
         <p class="text-xl">The following projects are side projects that I have worked on in my free time.</p>
     </div>

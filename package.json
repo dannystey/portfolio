@@ -37,6 +37,7 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
+		"@glidejs/glide": "^3.7.1",
 		"luxon": "^3.7.2",
 		"simplex-noise": "^4.0.3",
 		"three": "^0.182.0"

@@ -98,7 +98,7 @@
                     {/if}
                 {/each}
                 {#if booksByYear[year].length > 6}
-                <div class="hidden md:block col-span-full ">
+                <div class="col-span-full ">
                     <Button onclick={() => showMore[yearIndex] = !showMore[yearIndex]}>{!showMore[yearIndex] ? 'Show more' : 'Show less'}</Button>
                 </div>
                 {/if}
