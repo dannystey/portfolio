@@ -66,6 +66,13 @@ export class HardcoverService {
 		const query = `
 			query GetCurrentlyReading {
 				me {
+					lists {
+						id
+						name
+						list_books {
+						  	book_id
+						}
+				  	}
 					user_books(where: {status_id: {_in: [2, 3]}}) {
 						user_book_status {
 							id
@@ -76,6 +83,7 @@ export class HardcoverService {
 							finished_at
 						}
 						edition {
+							book_id
 							title
 							pages
 							image {
@@ -98,7 +106,7 @@ export class HardcoverService {
 		`;
 
 		const data = await this.query(query);
-		return data.me[0]?.user_books || [];
+		return data.me[0] || [];
 	}
 }
 

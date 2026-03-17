@@ -2,7 +2,7 @@ import {literalService} from '$lib/server/literal';
 import {hardcoverService} from '$lib/server/hardcover';
 import type {PageServerLoad} from './$types';
 import fs from 'node:fs';
-import { env } from '$env/dynamic/private';
+import {env} from '$env/dynamic/private';
 
 export const load: PageServerLoad = async () => {
     try {
@@ -17,35 +17,41 @@ export const load: PageServerLoad = async () => {
         let literalData: any = null;
         let filteredBookData = [];
         if (fs.existsSync('./static/literal.json')) {
-             literalData = JSON.parse(fs.readFileSync('./static/literal.json', 'utf8'));
-             filteredBookData = literalData.books || [];
+            literalData = JSON.parse(fs.readFileSync('./static/literal.json', 'utf8'));
+            filteredBookData = literalData.books || [];
         }
         if (env.HARDCOVER_API_KEY) {
             const hcBooks = await hardcoverService.getCurrentlyReading();
-            const hcMappedBooks = hcBooks.map(hc => ({
-                id: hc.book.slug,
-                title: hc.edition.title || hc.book.title,
-                slug: hc.book.slug,
-                pageCount: hc.edition.pages || hc.book.pages,
-                cover: hc.edition.image?.url,
-                authors: hc.book.contributions.map(c => ({ name: c.author.name })),
-                readingState: {
-                    status: hc.user_book_status.id === 2 ? 'IS_READING' : 'FINISHED',
-                    createdAt: hc.user_book_reads[0]?.started_at || new Date().toISOString()
-                },
-                readingDates: hc.user_book_reads.map(r => ({
-                    started: r.started_at,
-                    finished: r.finished_at
-                })),
-                gradientColors: hc.edition.image.colors // fallback colors
-            }));
+            const bedtimeStoryIds = hcBooks.lists.find(l => l.name == 'Bedtime Stories')?.list_books.map(b => b.book_id);
+            const hcMappedBooks = hcBooks.user_books.map(hc => {
+                // check if Bedtime Story
+                const bookId = hc.edition.book_id;
+                return {
+                    id: hc.book.slug,
+                    isBedtimeStory: bedtimeStoryIds?.includes(bookId),
+                    title: hc.edition.title || hc.book.title,
+                    slug: hc.book.slug,
+                    pageCount: hc.edition.pages || hc.book.pages,
+                    cover: hc.edition.image?.url,
+                    authors: hc.book.contributions.map(c => ({name: c.author.name})),
+                    readingState: {
+                        status: hc.user_book_status.id === 2 ? 'IS_READING' : 'FINISHED',
+                        createdAt: hc.user_book_reads[0]?.started_at || new Date().toISOString()
+                    },
+                    readingDates: hc.user_book_reads.map(r => ({
+                        started: r.started_at,
+                        finished: r.finished_at
+                    })),
+                    gradientColors: hc.edition.image.colors // fallback colors
+                }
+            });
 
             filteredBookData = [...filteredBookData, ...hcMappedBooks];
         }
         filteredBookData.sort((a, b) => {
             const dateA = a.readingDates?.[0]?.started ? new Date(a.readingDates[0].started).getTime() : 0;
             const dateB = b.readingDates?.[0]?.started ? new Date(b.readingDates[0].started).getTime() : 0;
-            
+
             return dateB - dateA;
         })
 
@@ -70,7 +76,7 @@ export const load: PageServerLoad = async () => {
         }
 
         // store result in json
-        fs.writeFileSync('./static/books.json', JSON.stringify({ books: filteredBookData, cached: Date.now() }, null, 2));
+        fs.writeFileSync('./static/books.json', JSON.stringify({books: filteredBookData, cached: Date.now()}, null, 2));
 
         return {
             books: filteredBookData

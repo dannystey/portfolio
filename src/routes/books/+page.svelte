@@ -69,7 +69,35 @@
                             <div class="w-24 h-36 object-cover rounded relative perspective-normal shrink-0">
                                 <div class="absolute inset-0" style="background: linear-gradient(to top,{book.gradientColors.join(',')})"></div>
                                 <div class="absolute inset-0.5 shadow bg-white" ></div>
-                                <img src={book.cover} alt={book.title} class="relative w-full h-full z-10 transition-tranform duration-500 group-hover:-rotate-y-30 origin-top-left object-cover rounded block"/>
+                                <div class="relative w-full h-full z-10 transition-tranform duration-500 group-hover:-rotate-y-30 origin-top-left ">
+                                    <img src={book.cover} alt={book.title} class="relative w-full h-full z-10 object-cover rounded block"/>
+                                    {#if book.isBedtimeStory}
+                                    <div class="absolute top-0 right-0 z-20 p-0.5 " >
+                                        <svg class="w-7 bg-white rounded p-0.5 block" viewBox="0 0 690 927" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-{Math.random() * 20}px, {Math.random() * 20}px) rotate({(Math.random() * 50) -25}deg)">
+                                            <rect width="690" height="927" rx="95" fill="#162B98"/>
+                                            <mask id="mask0_354_16" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="690" height="927">
+                                                <rect width="690" height="927" rx="95" fill="#162B98"/>
+                                            </mask>
+                                            <g mask="url(#mask0_354_16)">
+                                                <rect x="625" y="653" width="65" height="226" fill="#02065E"/>
+                                                <path d="M46 0H690V719C690 735.569 676.569 749 660 749H404L46 817.5V0Z" fill="#3850CA"/>
+                                                <path d="M90.5972 879H625V750H90.5972C24.0379 750 30.3081 879 90.5972 879Z" fill="white"/>
+                                                <path d="M187.283 496.949C223.891 574.331 317.57 617.042 404.937 575.711C404.937 575.711 320.776 591.292 259 469C197.224 346.708 279.192 282 279.192 282C191.825 323.331 150.676 419.567 187.283 496.949Z" fill="#6E85F6"/>
+                                                <path d="M476.938 155L458.656 197.84H416L449.008 229.527L434.027 273.635L476.938 243.216L516.039 282L507.152 232.822L546 197.84H494.203L476.938 155Z" fill="#6E85F6"/>
+                                                <path d="M573.138 508.627L553.889 523.343L534.442 512.404L541.417 535.221L523.35 551.358L550.663 548.584L558.608 576.178L567.086 551.624L593.709 545.742L570.095 532.459L573.138 508.627Z" fill="#6E85F6"/>
+                                                <path d="M232.648 211.417L253.459 209.646L262.35 226.473L268.044 206.808L288.67 203.469L267.655 192.92L274.896 169.363L257.233 183.181L235.254 175.191L246.05 195.624L232.648 211.417Z" fill="#6E85F6"/>
+                                                <path d="M456.564 338.148L418.413 355.294L390.17 329.29L392.759 370.337L356.022 390.331L402.928 396.402L405.236 445.851L429.252 407.958L476.243 408.539L441.948 376.964L456.564 338.148Z" fill="#6E85F6"/>
+                                            </g>
+                                            <mask id="mask1_354_16" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="43" y="750" width="582" height="129">
+                                                <path d="M90.5972 879H625V750H90.5972C24.0379 750 30.3081 879 90.5972 879Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#mask1_354_16)">
+                                                <rect x="47" y="742" width="612" height="42" fill="#D9D9D9"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    {/if}
+                                </div>
                             </div>
                         {/if}
                         <div class="flex flex-col justify-center">
@@ -90,9 +118,16 @@
                                 {/if}
                             </p>
                                     {/if}
-                            {#if book.pageCount}
-                            <div class="  mt-1 bg-neutral-800 rounded-full inline-block px-2 py-1 w-12 text-center text-xs text-white">{book.pageCount}</div>
-                            {/if}
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                {#if book.pageCount}
+                                <div class="bg-neutral-800 rounded-full block px-2 py-1 w-12 text-center text-xs text-white">{book.pageCount}</div>
+                                {/if}
+                                {#if book.isBedtimeStory}
+                                <div class="bg-[#6E85F6] rounded-full block px-2 py-1 text-center text-xs text-[#02065E]">
+                                    Read as bedtime story
+                                </div>
+                                {/if}
+                            </div>
                         </div>
                     </div>
                     {/if}
