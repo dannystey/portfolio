@@ -3,6 +3,7 @@
     import { onMount } from 'svelte';
     import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
     import { loadModels } from './books/loadModels';
+    import { Dust } from './books/Dust';
 
     let container: HTMLDivElement;
     let { books } = $props();
@@ -83,6 +84,9 @@
 
         scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
 
+        const dust = new Dust(scene);
+        dust.add();
+
         // Animation loop
         let animationId: number;
         const animate = () => {
@@ -94,6 +98,8 @@
                 m.rotation.y = Math.PI + Math.sin(time * 0.5 + i) * 0.1;
                 m.position.y = Math.sin(time + i * 0.5) * 0.2 + 8;
             });
+
+            dust.animate();
             
             renderer.render(scene, camera);
         };
