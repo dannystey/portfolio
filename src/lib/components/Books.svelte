@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
     import { loadModels } from './books/loadModels';
-    import { Dust } from './books/Dust';
+    import { Dust } from './books/dust';
 
     let container: HTMLDivElement;
     let { books } = $props();
