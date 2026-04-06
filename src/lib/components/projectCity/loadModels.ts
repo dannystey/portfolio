@@ -55,16 +55,17 @@ export const loadModels = () => {
                     if (child.name === 'Windows') {
                         child.material = lightWindowMaterial;
                         child.receiveShadow = true;
-
+                        child.castShadow = true;
                     }
                     if (child.name === 'Windows005') {
                         child.material = darkWindowMaterial;
                         child.receiveShadow = true;
-
+                        child.castShadow = true;
                     }
 
                     if (child.name === 'Frame') {
                         child.material = frameMaterial;
+                        child.castShadow = true;
                     }
                 })
 
