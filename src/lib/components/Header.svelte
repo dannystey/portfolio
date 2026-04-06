@@ -35,16 +35,16 @@
                 <div class="{ open ? '-rotate-45' : '-mt-1'} transition-transform h-px w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white"></div>
             </button>
             <div class="p-5 grid grid-cols-1 gap-5 py-6 {open ? 'opacity-100' : 'opacity-0 pointer-events-none'} transition-opacity duration-300">
-                <a href="/" class="text-white font-bold">
+                <a onclick={() => open = false} href="/" class="text-white font-bold">
                     Home
                 </a>
-                <a href="/cv" class="text-white font-bold">
+                <a onclick={() => open = false} href="/cv" class="text-white font-bold">
                     CV
                 </a>
-                <a href="/books" class="text-white font-bold">
+                <a onclick={() => open = false} href="/books" class="text-white font-bold">
                     Books
                 </a>
-                <a href="/projects" class="text-white font-bold">
+                <a onclick={() => open = false} href="/projects" class="text-white font-bold">
                     Project City
                 </a>
                 <a aria-label="Contact" href="mailto:hi@steylish.de" class="text-white flex items-center gap-2">
