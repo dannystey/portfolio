@@ -21,14 +21,14 @@ export const loadModels = () => {
         });
 
         const lightWindowMaterial = new THREE.MeshStandardMaterial({
-            color: 0xffffcc,
+            color: 0xfbfbff,
             flatShading: true,
             metalness: 0,
             roughness: 0.1,
-            emissive: 0xffffaa,
-            emissiveIntensity: 2
+            emissive: 0xfbfbff,
+            emissiveIntensity: 4
         });
-        const darkWindowMaterial = new THREE.MeshStandardMaterial({ color: 0x000000, flatShading: true, metalness: 1, roughness: 0.5 });
+        const darkWindowMaterial = new THREE.MeshStandardMaterial({ color: 0xfbfbff, flatShading: true, metalness: 1, roughness: 0.5 });
 
         const frameMaterial = new THREE.MeshStandardMaterial({ color: 0x000000, flatShading: true, metalness: 1, roughness: 0.5 });
 

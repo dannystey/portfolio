@@ -23,11 +23,22 @@
 @theme {
     --font-sans: 'Geist', sans-serif;
 
+    --color-de-york-50: #fbfbff;
+    --color-de-york-100: #dbdbfe;
+    --color-de-york-200: #b5e5bd;
+    --color-de-york-300: #85d096;
+    --color-de-york-400: #69bf7f;
+    --color-de-york-500: #30994e;
+    --color-de-york-600: #207b3c;
+    --color-de-york-700: #1a6232;
+    --color-de-york-800: #174e2a;
+    --color-de-york-900: #144024;
+    --color-de-york-950: #0a2414;
 
 }
 
 .headline {
-    background: -webkit-linear-gradient(#000, #443);
+    background: -webkit-linear-gradient(#000, #241754);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

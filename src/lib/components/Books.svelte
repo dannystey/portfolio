@@ -58,7 +58,7 @@
         // Ground Plane
         const groundGeometry = new THREE.PlaneGeometry(100, 100);
         const groundMaterial = new THREE.MeshStandardMaterial({ 
-            color: 0xffffff,
+            color: '#fbfbff',
         });
         const ground = new THREE.Mesh(groundGeometry, groundMaterial);
         ground.rotation.x = -Math.PI / 2;
@@ -82,7 +82,7 @@
         const readingBooks = books.filter(b => b.cover && b.readingState.status == 'IS_READING');
         const bookModels = await loadModels(scene, readingBooks, books);
 
-        scene.fog = new THREE.Fog( 0xf5f5f5, 15, 40);
+        scene.fog = new THREE.Fog( 0xfbfbff, 15, 40);
 
         const dust = new Dust(scene);
         dust.add();

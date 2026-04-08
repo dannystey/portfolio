@@ -44,7 +44,7 @@
         <div class="glide__track !overflow-visible relative" data-glide-el="track">
             <ul class="glide__slides !overflow-visible">
                 <li class="glide__slide max-w-[400px]">
-                    <div class="aspect-[3/4] bg-neutral-100 rounded-2xl p-4 flex flex-col h-full">
+                    <div class="aspect-[3/4] bg-de-york-50 rounded-2xl p-4 flex flex-col h-full">
                         <div class="w-full aspect-[4/3] overflow-hidden mb-4">
                             <img alt="Nicole Hackbarth" class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/nicole.png" />
                         </div>
@@ -61,7 +61,7 @@
                     </div>
                 </li>
                 <li class="glide__slide max-w-[400px]">
-                    <div class="aspect-[3/4] bg-neutral-100 rounded-2xl p-4 flex flex-col h-full">
+                    <div class="aspect-[3/4] bg-de-york-50 rounded-2xl p-4 flex flex-col h-full">
                         <div class="w-full aspect-[4/3] overflow-hidden mb-4">
                             <img alt="Charlotte Altmann" class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/charlotte.png" />
                         </div>
@@ -79,7 +79,7 @@
                 </li>
 
                 <li class="glide__slide max-w-[400px]">
-                    <div class="aspect-[3/4] bg-neutral-100 rounded-2xl p-4 flex flex-col h-full">
+                    <div class="aspect-[3/4] bg-de-york-50 rounded-2xl p-4 flex flex-col h-full">
                         <div class="w-full aspect-[4/3] overflow-hidden mb-4">
                             <img alt="Jan Bassen" class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/jan.png" />
                         </div>
@@ -97,7 +97,7 @@
                 </li>
 
                 <li class="glide__slide max-w-[400px]">
-                    <div class="aspect-[3/4] bg-neutral-100 rounded-2xl p-4 flex flex-col h-full">
+                    <div class="aspect-[3/4] bg-de-york-50 rounded-2xl p-4 flex flex-col h-full">
                         <div class="w-full aspect-[4/3] overflow-hidden mb-4">
                             <img class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/bernhard.jpeg" />
                         </div>

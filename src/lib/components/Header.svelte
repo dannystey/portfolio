@@ -13,10 +13,10 @@
             <a class="hidden lg:block" aria-label="CV" href="/cv">
                 <Button icon="clipboard">CV</Button>
             </a>
-            <a href="/books" class="hidden lg:block text-neutral-500 hover:text-neutral-600">
+            <a href="/books" class="hidden lg:block text-neutral-600 hover:text-neutral-800 transition-colors duration-300">
                 Books
             </a>
-            <a href="/projects" class="hidden lg:block text-neutral-500 hover:text-neutral-600">
+            <a href="/projects" class="hidden lg:block text-neutral-600 hover:text-neutral-800 transition-colors duration-300">
                 Project City
             </a>
         </div>

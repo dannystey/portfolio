@@ -6,7 +6,7 @@
         <h2 class="text-3xl mb-5 font-bold headline">Services</h2>
         <p class="text-xl"></p>
     </div>
-    <div class="bg-neutral-100 rounded-2xl p-8 mb-2">
+    <div class="bg-de-york-50 rounded-2xl p-8 mb-2">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-20">
             <h3 class="text-2xl font-bold mb-4 headline">Immersive web experierences</h3>
             <div class="prose lg:col-span-3 max-w-none">
@@ -25,7 +25,7 @@
 
     </div>
 
-    <div class="bg-neutral-100 rounded-2xl p-8 mb-2">
+    <div class="bg-de-york-50 rounded-2xl p-8 mb-2">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-20">
             <h3 class="text-2xl font-bold mb-4 headline">Interim Technical Leadership</h3>
             <div class="prose lg:col-span-3 max-w-none">
@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="bg-neutral-100 rounded-2xl p-8 mb-2">
+    <div class="bg-de-york-50 rounded-2xl p-8 mb-2">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-20">
             <h3 class="text-2xl font-bold mb-4 headline">Digital Modernization</h3>
             <div class="prose lg:col-span-3 max-w-none">
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div class="bg-neutral-100 rounded-2xl p-8 ">
+    <div class="bg-de-york-50 rounded-2xl p-8 ">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-20">
             <h3 class="text-2xl font-bold mb-4 headline">Your AI Prototype, Professionalized.</h3>
             <div class="prose lg:col-span-3 max-w-none">

@@ -28,7 +28,7 @@
 </script>
 
 <div class="max-w-screen-xl  relative mx-auto z-10  ">
-    <div class="lg:py-[200px] pt-40 pb-20 bg-neutral-100 px-5 lg:px-12 rounded-[4rem]">
+    <div class="lg:py-[200px] pt-40 pb-20 bg-de-york-50 px-5 lg:px-12 rounded-[4rem]">
         <div class="max-w-3xl  text-black">
             <h1 class="text-4xl  lg:text-7xl mb-5 font-bold headline">I love building digital products, concepts and strategies</h1>
             <p class="text-neutral-600">

@@ -30,7 +30,7 @@
 </script>
 
 <div class="max-w-screen-xl relative mx-auto mb-20">
-    <div class="h-[60vh] min-h-[700px] bg-neutral-100 rounded-[4rem] overflow-hidden lg:mb-12 relative">
+    <div class="h-[60vh] min-h-[700px] bg-de-york-50 rounded-[4rem] overflow-hidden lg:mb-12 relative">
         <Books books={data.books}></Books>
         <div class="absolute left-1/2 -translate-x-1/2 whitespace-nowrap lg:translate-x-0 bottom-8 lg:left-12 bg-neutral-600 text-white px-3 py-1 rounded-full text-sm ">
             <span>Books I am currently reading</span>
@@ -64,7 +64,7 @@
                 <div class="rounded-full -translate-x-1/2 w-3.5 h-3.5 {yearIndex == years.length -1 ? '' : 'hidden'} bg-neutral-600 absolute bottom-0 left-0"></div>
                 {#each booksByYear[year] as book, i}
                     {#if i < 6 || showMore[yearIndex]}
-                    <div class="flex gap-4 p-4 rounded-2xl bg-neutral-100 perspective-normal group">
+                    <div class="flex gap-4 p-4 rounded-2xl bg-de-york-50 perspective-normal group">
                         {#if book.cover}
                             <div class="w-24 h-36 object-cover rounded relative perspective-normal shrink-0">
                                 <div class="absolute inset-0" style="background: linear-gradient(to top,{book.gradientColors.join(',')})"></div>

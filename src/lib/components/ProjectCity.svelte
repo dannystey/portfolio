@@ -34,7 +34,7 @@
         container.appendChild(renderer.domElement);
 
         // fog
-        scene.fog = new THREE.Fog( 0xffffff, 10, 60);
+        scene.fog = new THREE.Fog( 0xfbfbff, 10, 60);
 
         // Lights
         const ambientLight = new THREE.AmbientLight(0xffffff, 1);
@@ -74,7 +74,7 @@
         const groundSegments = 128; // Increased for more detail
         const groundGeometry = new THREE.PlaneGeometry(groundSize, groundSize, groundSegments, groundSegments);
         const groundMaterial = new THREE.MeshStandardMaterial({
-            color: 0xffffff,
+            color: 0xfbfbff,
             wireframe: false,
             flatShading: false // Better for mountain-like look
         });
