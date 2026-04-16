@@ -10,6 +10,7 @@
 <svelte:head>
     <link rel="icon" type="image/svg+xml" href="{favicon}" />
     <title>Software Development by Steylish</title>
+    <meta name="description" content="Danny Stey - Steylish Software Development: Erfahrene Softwareentwicklung für individuelle Lösungen, Web-Anwendungen und digitale Innovationen aus Mühldorf." />
     {@html `
     <script type="application/ld+json">
         {
@@ -32,6 +33,56 @@
             "founder": {
                 "@type": "Person",
                 "name": "Danny Stey"
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Software Development Services",
+                "itemListElement": [
+                    {
+                        "@type": "OfferCatalog",
+                        "name": "Immersive web experiences",
+                        "itemListElement": [
+                            {
+                                "@type": "Service",
+                                "name": "Immersive web experiences",
+                                "description": "High-performance WebGL and Three.js 3D web experiences built with senior fullstack expertise."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "OfferCatalog",
+                        "name": "Interim Technical Leadership",
+                        "itemListElement": [
+                            {
+                                "@type": "Service",
+                                "name": "Interim Technical Leadership",
+                                "description": "Stabilizing complex codebases, optimizing workflows, and transforming technical debt into high-performance architecture while mentoring teams."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "OfferCatalog",
+                        "name": "Digital Modernization",
+                        "itemListElement": [
+                            {
+                                "@type": "Service",
+                                "name": "Digital Modernization",
+                                "description": "Modernizing software architecture to be future-proof, flexible, and secure."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "OfferCatalog",
+                        "name": "AI Prototype Professionalization",
+                        "itemListElement": [
+                            {
+                                "@type": "Service",
+                                "name": "AI Prototype Professionalization",
+                                "description": "Auditing, refactoring, and hardening AI-generated applications to make them production-ready."
+                            }
+                        ]
+                    }
+                ]
             }
         }
     </script>
