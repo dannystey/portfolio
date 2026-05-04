@@ -33,11 +33,11 @@
       "client": "Pentacoastal"
     },
     {
-      "actual_hours": 21,
+      "actual_hours": 42,
       "client": "Tatjana Pavicic"
     },
     {
-      "actual_hours": 62,
+      "actual_hours": 71,
       "client": "Rainer Frömmel"
     },
     {
@@ -105,7 +105,7 @@
       "client": "coma"
     },
     {
-      "actual_hours": 147,
+      "actual_hours": 156,
       "client": "Pentacoastal"
     },
     {
@@ -225,7 +225,7 @@
       "client": "pixx.io"
     },
     {
-      "actual_hours": 41,
+      "actual_hours": 51,
       "client": "rc-tec"
     },
     {
@@ -336,7 +336,7 @@
       "client": "coma"
     },
     {
-      "actual_hours": 8,
+      "actual_hours": 11,
       "client": "rc-tec"
     },
     {
@@ -400,7 +400,7 @@
       "client": "rc-tec"
     },
     {
-      "actual_hours": 132,
+      "actual_hours": 135,
       "client": "rc-tec"
     },
     {
@@ -420,7 +420,7 @@
       "client": "pixx.io"
     },
     {
-      "actual_hours": 15,
+      "actual_hours": 16,
       "client": "pixx.io"
     },
     {
@@ -484,7 +484,7 @@
       "client": "Pentacoastal"
     },
     {
-      "actual_hours": 79,
+      "actual_hours": 83,
       "client": "Pentacoastal"
     },
     {
@@ -528,5 +528,5 @@
       "client": "Pentacoastal"
     }
   ],
-  "cached": 1775465528355
+  "cached": 1777890014067
 }

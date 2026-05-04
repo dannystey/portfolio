@@ -4,11 +4,15 @@ import type {PageServerLoad} from './$types';
 import fs from 'node:fs';
 import {env} from '$env/dynamic/private';
 
+// In production (adapter-node), static files are served from build/client/.
+// STATIC_DIR can be set via env var; defaults to ./static for dev and ./client for prod.
+const staticDir = process.env.STATIC_DIR ?? (fs.existsSync('./static') ? './static' : './client');
+
 export const load: PageServerLoad = async () => {
     try {
         let cacheData: any = null;
-        if (fs.existsSync('./static/books.json')) {
-            cacheData = JSON.parse(fs.readFileSync('./static/books.json', 'utf8'));
+        if (fs.existsSync(`${staticDir}/books.json`)) {
+            cacheData = JSON.parse(fs.readFileSync(`${staticDir}/books.json`, 'utf8'));
             if (cacheData.cached + 1000 * 60 * 60 * 24 * 2 > Date.now()) {
                 return cacheData;
             }
@@ -16,8 +20,8 @@ export const load: PageServerLoad = async () => {
 
         let literalData: any = null;
         let filteredBookData = [];
-        if (fs.existsSync('./static/literal.json')) {
-            literalData = JSON.parse(fs.readFileSync('./static/literal.json', 'utf8'));
+        if (fs.existsSync(`${staticDir}/literal.json`)) {
+            literalData = JSON.parse(fs.readFileSync(`${staticDir}/literal.json`, 'utf8'));
             filteredBookData = literalData.books || [];
         }
         if (env.HARDCOVER_API_KEY) {
@@ -56,7 +60,7 @@ export const load: PageServerLoad = async () => {
         })
 
         for (const book of filteredBookData) {
-            const coverPath = `./static/covers/cover-${book.id}.png`;
+            const coverPath = `${staticDir}/covers/cover-${book.id}.png`;
             if (book.cover && !fs.existsSync(coverPath)) {
                 try {
                     const response = await fetch(book.cover);
@@ -65,18 +69,19 @@ export const load: PageServerLoad = async () => {
                     const coverBlob = await response.blob();
                     const coverArrayBuffer = await coverBlob.arrayBuffer();
                     const coverBuffer = Buffer.from(coverArrayBuffer);
+                    fs.mkdirSync(`${staticDir}/covers`, {recursive: true});
                     fs.writeFileSync(coverPath, coverBuffer);
-                    book.cover = coverPath.replace('./static/', '/');
+                    book.cover = `/covers/cover-${book.id}.png`;
                 } catch (error) {
                     console.error(`Failed to download cover for ${book.title}:`, error);
                 }
             } else if (book.cover) {
-                book.cover = coverPath.replace('./static/', '/');
+                book.cover = `/covers/cover-${book.id}.png`;
             }
         }
 
         // store result in json
-        fs.writeFileSync('./static/books.json', JSON.stringify({books: filteredBookData, cached: Date.now()}, null, 2));
+        fs.writeFileSync(`${staticDir}/books.json`, JSON.stringify({books: filteredBookData, cached: Date.now()}, null, 2));
 
         return {
             books: filteredBookData
