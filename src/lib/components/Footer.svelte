@@ -15,9 +15,12 @@
             <div class="border-t border-neutral-200 flex justify-between items-center py-5">
                 <p class="text-sm">© {new Date().getFullYear()} Danny Stey. All rights reserved.</p>
                 <nav class="text-sm">
-                    <ul>
+                    <ul class="flex gap-5">
                         <li>
                             <a class="hover:opacity-75 transition-opacity" href="imprint">Legal notice</a>
+                        </li>
+                        <li>
+                            <a class="hover:opacity-75 transition-opacity" href="privacy">Privacy policy</a>
                         </li>
                     </ul>
                 </nav>
