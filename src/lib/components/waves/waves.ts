@@ -37,8 +37,8 @@ export class Waves {
         this.gui = new GUI({ width: 340 })
         if (!showGui) this.gui.hide()
         const debug = {
-            depthColor: '#888',
-            surfaceColor: '#e2e2e2',
+            depthColor: '#a79ed6',
+            surfaceColor: '#e0d4f2',
             sunColor: '#ffffff',
             fogColor: '#fbfbff'
         }
@@ -91,8 +91,8 @@ export class Waves {
 
                 uMouse: { value: new THREE.Vector2(0, 0) },
                 uMouseStrength: { value: 0 },
-                uMouseRadius: { value: 0.24 },
-                uMouseElevation: { value: 0.35 }
+                uMouseRadius: { value: 0.5 },
+                uMouseElevation: { value: 0.05 }
             }
         })
 
