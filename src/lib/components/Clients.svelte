@@ -1,6 +1,6 @@
 <script>
 </script>
-<div class="max-w-screen-xl relative mx-auto px-5 lg:px-12 py-40">
+<div class="max-w-screen-xl relative mx-auto px-5 lg:px-12 pt-20 pb-40 ">
     <h3 class="text-center mb-4 text-gray-500 text-sm">trusted by</h3>
 <div class="grid grid-cols-3 xl:grid-cols-6 gap-1">
     <div class="bg-de-york-50 flex p-4 justify-center items-center h-16 rounded">

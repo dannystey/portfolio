@@ -34,7 +34,7 @@
 
 <div class="max-w-screen-xl relative mx-auto px-5 lg:px-12 my-20">
     <div class="grid grid-cols-1 mb-10">
-        <h2 class="text-3xl mb-5 font-bold headline">My Network</h2>
+        <h2 class="text-3xl mb-5 font-bold headline">Need more power & expertise?</h2>
         <p class="text-xl">Collaborators and partners I’m proud to recommend.</p>
     </div>
 
@@ -56,6 +56,23 @@
                             <div class="flex-1"></div>
                             <a href="https://pentacoastal.studio" target="_blank" rel="noopener">
                                 <Button icon="external">To pentacoastal.studio</Button>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide max-w-[400px]">
+                    <div class="aspect-[3/4] bg-de-york-50 rounded-2xl p-4 flex flex-col h-full">
+                        <div class="w-full aspect-[4/3] overflow-hidden mb-4">
+                            <img alt="Riccardo Nentwich" class="block w-full h-full object-cover rounded-2xl grayscale-100 hover:grayscale-0 duration-500 transition-all" src="/images/riccardo.png" />
+                        </div>
+                        <div class="flex-1 items-start flex flex-col">
+                            <span class="text-2xl font-bold mb-4">Riccardo</span>
+                            <p>
+                                Partner for growth & strategies
+                            </p>
+                            <div class="flex-1"></div>
+                            <a href="https://riccardonentwich.com" target="_blank" rel="noopener">
+                                <Button icon="external">To riccardonentwich.com</Button>
                             </a>
                         </div>
                     </div>

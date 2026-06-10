@@ -4,13 +4,15 @@
     import HighlightProjectTeaser from '$lib/components/HighlightProjectTeaser.svelte';
     import Network from '$lib/components/Network.svelte';
     import Services from '$lib/components/Services.svelte';
+    import References from '$lib/components/References.svelte';
     import {fade} from 'svelte/transition';
 </script>
 <div transition:fade>
 
 </div>
 <Hero/>
-<Clients></Clients>
+
+<References></References>
 <Services></Services>
 <HighlightProjectTeaser></HighlightProjectTeaser>
 <Network></Network>
