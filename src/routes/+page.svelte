@@ -12,7 +12,7 @@
 </div>
 <Hero/>
 
-<References></References>
+<Clients></Clients>
 <Services></Services>
 <HighlightProjectTeaser></HighlightProjectTeaser>
 <Network></Network>
