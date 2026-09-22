@@ -11,7 +11,6 @@
 
 </div>
 <Hero/>
-
 <Clients></Clients>
 <Services></Services>
 <HighlightProjectTeaser></HighlightProjectTeaser>
