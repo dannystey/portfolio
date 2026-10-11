@@ -10,7 +10,8 @@ node_modules
 
 /static/covers
 /static/books.json
-/static/projects.son
+/static/projects.json
+/.cache
 
 # OS
 .DS_Store

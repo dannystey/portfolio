@@ -1,0 +1,43 @@
+# Steylish – Danny Stey
+
+> Danny Stey (Steylish) is a freelance senior fullstack engineer and interim technical lead based in Mühldorf am Inn, Germany. He provides interim team leadership and senior frontend/backend engineering, mentors developers and acts as a sparring partner for CTOs on architecture, strategy and scaling. Working in German and English, for clients across Germany and Austria.
+
+## Services
+
+- **Immersive web experiences**: high-performance 3D web experiences with WebGL and Three.js, built with senior fullstack expertise.
+- **Interim technical leadership**: stabilizing complex codebases, optimizing development workflows, turning technical debt into solid architecture and mentoring teams, including AI-enhanced workflows. Based on experience as Head of Engineering.
+- **Digital modernization**: modernizing software architecture so it becomes future-proof, flexible and secure, either as a complete rebuild or step by step.
+- **AI prototype professionalization**: auditing, refactoring and hardening AI-generated applications (e.g. built with Claude or Lovable) to make them production-ready: security, scaling, performance and architecture.
+
+## Background
+
+- Since 2023: freelance engineer (web development, consulting, team leadership). Clients include rc-tec, pixx.io, coma, collect.AI, WAF Seminare, shareDnC, Buzzin Monkey, Pentacoastal, Ideenbude and ALM Engineering.
+- 2021–2023: Head of Engineering & Team Lead Frontend at pixx.io (digital asset management).
+- 2019: Senior Frontend Architect at Virtual Identity, Munich (projects for Infineon, Munich Re, Caritas).
+- 2010–2019: coma, Munich, from web developer to Head of Development (teams in Munich and Valencia).
+- Education: Bachelor of Engineering in media technology, TH Deggendorf.
+- Skills: Svelte, Vue, React, Angular, TypeScript, TailwindCSS, Three.js · Laravel, Symfony, PHP, NestJS, Node.js, SQL, Redis, MongoDB · leadership, coaching, Scrum, software architecture.
+
+## Pages
+
+- [Home](https://steylish.de/): services, clients, side projects and network
+- [CV](https://steylish.de/cv): full curriculum vitae
+- [Project City](https://steylish.de/projects): all paid projects, visualized as a 3D city
+- [Books](https://steylish.de/books): reading list
+
+## Side projects
+
+- [Tallycore](https://tallycore.com): management platform for model agencies (in development)
+- [Handstand](https://handstand.software): lean management software for fitness studios
+
+## Contact
+
+- Email: hi@steylish.de
+- Phone: +49 173 65 28 134
+- [LinkedIn](https://www.linkedin.com/in/danny-stey-59b357157/)
+- [GitHub](https://github.com/dannystey)
+
+## Optional
+
+- [Legal notice](https://steylish.de/imprint)
+- [Privacy policy](https://steylish.de/privacy)

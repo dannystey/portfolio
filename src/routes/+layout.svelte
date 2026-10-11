@@ -9,8 +9,6 @@
 
 <svelte:head>
     <link rel="icon" type="image/svg+xml" href="{favicon}" />
-    <title>Software Development by Steylish</title>
-    <meta name="description" content="Danny Stey - Steylish Software Development: Erfahrene Softwareentwicklung für individuelle Lösungen, Web-Anwendungen und digitale Innovationen aus Mühldorf." />
     {@html `
     <script type="application/ld+json">
         {

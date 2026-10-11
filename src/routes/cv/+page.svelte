@@ -1,6 +1,9 @@
 <script>
+    import Seo from '$lib/components/Seo.svelte';
     import Button from '$lib/components/Button.svelte';
 </script>
+
+<Seo title="CV – Danny Stey | Steylish" description="Curriculum vitae of Danny Stey: freelance engineer and former Head of Engineering at pixx.io, with experience at coma and Virtual Identity. Skills in Svelte, Vue, React, Angular, Laravel, NestJS and team leadership." />
 
 <div class="max-w-screen-xl relative mx-auto text-sm py-[200px] print:py-0" >
     <div class="max-w-3xl px-5 mx-auto grid grid-cols-4 gap-10">

@@ -8,7 +8,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 auto-rows-fr gap-2">
         <div class="bg-de-york-50 rounded-2xl p-8 flex flex-col">
-            <h3 class="text-2xl font-bold mb-4 headline ">Immersive web experierences</h3>
+            <h3 class="text-2xl font-bold mb-4 headline ">Immersive web experiences</h3>
             <div class="prose max-w-none text-neutral-500">
                 <p>
                     Static websites are no longer enough to capture the modern user’s attention. I combine <strong>Senior Fullstack

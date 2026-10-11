@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import {onMount} from 'svelte';
     import Books from '$lib/components/Books.svelte';
     import Button from '$lib/components/Button.svelte';
@@ -28,6 +29,8 @@
         showMore = years.map(() => false);
     })
 </script>
+
+<Seo title="Books – Reading List of Danny Stey | Steylish" description="The books Danny Stey has read, grouped by year." />
 
 <div class="max-w-screen-xl relative mx-auto mb-20">
     <div class="h-[60vh] min-h-[700px] bg-de-york-50 rounded-[4rem] overflow-hidden lg:mb-12 relative">

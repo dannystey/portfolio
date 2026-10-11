@@ -1,6 +1,9 @@
 <script>
+    import Seo from '$lib/components/Seo.svelte';
 
 </script>
+
+<Seo title="Legal Notice | Steylish" description="Legal notice (Impressum) for steylish.de – Danny Stey, Paul-Kurz-Str. 21, 84453 Mühldorf, Germany." />
 
 <div class="max-w-screen-xl relative mx-auto text-sm py-[200px] print:py-0">
     <div class="max-w-3xl px-5 mx-auto">
