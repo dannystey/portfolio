@@ -37,48 +37,36 @@
                 "name": "Software Development Services",
                 "itemListElement": [
                     {
-                        "@type": "OfferCatalog",
-                        "name": "Immersive web experiences",
-                        "itemListElement": [
-                            {
-                                "@type": "Service",
-                                "name": "Immersive web experiences",
-                                "description": "High-performance WebGL and Three.js 3D web experiences built with senior fullstack expertise."
-                            }
-                        ]
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "@id": "https://steylish.de/#service-immersive-web-experiences",
+                            "name": "Immersive web experiences"
+                        }
                     },
                     {
-                        "@type": "OfferCatalog",
-                        "name": "Interim Technical Leadership",
-                        "itemListElement": [
-                            {
-                                "@type": "Service",
-                                "name": "Interim Technical Leadership",
-                                "description": "Stabilizing complex codebases, optimizing workflows, and transforming technical debt into high-performance architecture while mentoring teams."
-                            }
-                        ]
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "@id": "https://steylish.de/#service-interim-technical-leadership",
+                            "name": "Interim Technical Leadership"
+                        }
                     },
                     {
-                        "@type": "OfferCatalog",
-                        "name": "Digital Modernization",
-                        "itemListElement": [
-                            {
-                                "@type": "Service",
-                                "name": "Digital Modernization",
-                                "description": "Modernizing software architecture to be future-proof, flexible, and secure."
-                            }
-                        ]
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "@id": "https://steylish.de/#service-digital-modernization",
+                            "name": "Digital Modernization"
+                        }
                     },
                     {
-                        "@type": "OfferCatalog",
-                        "name": "AI Prototype Professionalization",
-                        "itemListElement": [
-                            {
-                                "@type": "Service",
-                                "name": "AI Prototype Professionalization",
-                                "description": "Auditing, refactoring, and hardening AI-generated applications to make them production-ready."
-                            }
-                        ]
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "@id": "https://steylish.de/#service-ai-prototype-professionalization",
+                            "name": "AI Prototype Professionalization"
+                        }
                     }
                 ]
             }

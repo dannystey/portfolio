@@ -1,7 +1,56 @@
-<script>
+<script lang="ts">
+    const site = 'https://steylish.de';
+
+    const services = [
+        {
+            id: 'immersive-web-experiences',
+            name: 'Immersive web experiences',
+            serviceType: '3D web development',
+            description: 'High-performance immersive 3D web experiences that live directly in the browser, built with senior fullstack expertise, WebGL and Three.js, without compromising on speed or accessibility.'
+        },
+        {
+            id: 'interim-technical-leadership',
+            name: 'Interim Technical Leadership',
+            serviceType: 'Interim technical leadership',
+            description: 'Interim Head of Engineering: stabilizing complex codebases, optimizing development workflows, turning technical debt into high-performance architecture and mentoring teams, including AI-enhanced workflows.'
+        },
+        {
+            id: 'digital-modernization',
+            name: 'Digital Modernization',
+            serviceType: 'Software modernization',
+            description: 'Modernizing software architecture to make it future-proof, flexible, fast and secure, as a complete rebuild or a step-by-step modernization.'
+        },
+        {
+            id: 'ai-prototype-professionalization',
+            name: 'AI Prototype Professionalization',
+            serviceType: 'Code audit and refactoring',
+            description: 'Auditing, refactoring and hardening AI-generated applications and MVPs (e.g. built with Claude or Lovable) to make them production-ready: security checks, performance tuning and architectural cleanup.'
+        }
+    ];
+
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@graph': services.map((service) => ({
+            '@type': 'Service',
+            '@id': `${site}/#service-${service.id}`,
+            name: service.name,
+            serviceType: service.serviceType,
+            description: service.description,
+            url: `${site}/#services`,
+            provider: { '@id': `${site}/#localbusiness` },
+            areaServed: [
+                { '@type': 'Country', name: 'Germany' },
+                { '@type': 'Country', name: 'Austria' }
+            ]
+        }))
+    };
 </script>
 
-<div class="max-w-screen-xl relative mx-auto px-5 lg:px-12 mb-40">
+<svelte:head>
+    {@html `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>`}
+</svelte:head>
+
+<div id="services" class="max-w-screen-xl relative mx-auto px-5 lg:px-12 mb-40">
     <div class="grid grid-cols-1 mb-10">
         <h2 class="text-3xl mb-5 font-bold headline">Services</h2>
         <p class="text-xl"></p>
