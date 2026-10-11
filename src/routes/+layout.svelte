@@ -67,6 +67,14 @@
                             "@id": "https://steylish.de/#service-ai-prototype-professionalization",
                             "name": "AI Prototype Professionalization"
                         }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "@id": "https://steylish.de/#service-ai-supported-software-development",
+                            "name": "AI-supported Software Development"
+                        }
                     }
                 ]
             }

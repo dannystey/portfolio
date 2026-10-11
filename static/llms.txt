@@ -8,6 +8,7 @@
 - **Interim technical leadership**: stabilizing complex codebases, optimizing development workflows, turning technical debt into solid architecture and mentoring teams, including AI-enhanced workflows. Based on experience as Head of Engineering.
 - **Digital modernization**: modernizing software architecture so it becomes future-proof, flexible and secure, either as a complete rebuild or step by step.
 - **AI prototype professionalization**: auditing, refactoring and hardening AI-generated applications (e.g. built with Claude or Lovable) to make them production-ready: security, scaling, performance and architecture.
+- **AI-supported software development**: modern AI tools for high efficiency and fast delivery, combined with over 17 years of software engineering experience for the best quality: clean, maintainable and secure code.
 
 ## Background
 

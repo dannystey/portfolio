@@ -25,6 +25,12 @@
             name: 'AI Prototype Professionalization',
             serviceType: 'Code audit and refactoring',
             description: 'Auditing, refactoring and hardening AI-generated applications and MVPs (e.g. built with Claude or Lovable) to make them production-ready: security checks, performance tuning and architectural cleanup.'
+        },
+        {
+            id: 'ai-supported-software-development',
+            name: 'AI-supported Software Development',
+            serviceType: 'Software development',
+            description: 'AI-supported software development for high efficiency, combined with over 17 years of software engineering experience for the best quality: faster delivery with clean, reviewed, maintainable and secure code.'
         }
     ];
 
@@ -106,6 +112,18 @@
                 </p>
                 <p>
                     From security checks to performance tuning and architectural cleanup, I ensure your "prompted" software meets the highest professional standards. Keep the innovation, lose the technical debt.
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-de-york-50 rounded-2xl p-8 flex flex-col lg:col-span-2">
+            <h3 class="text-2xl font-bold mb-4 headline">AI-supported Software Development</h3>
+            <div class="prose max-w-none text-neutral-500">
+                <p>
+                    I use modern AI tools throughout the development process to deliver software with <strong>high efficiency</strong>: faster prototypes, quicker iterations and more time for what really matters.
+                </p>
+                <p>
+                    Speed alone isn't enough. With <strong>over 17 years of experience</strong> in software engineering, I review, structure and refine every line, so you get the pace of AI with the <strong>best quality</strong>: clean, maintainable and secure code.
                 </p>
             </div>
         </div>
